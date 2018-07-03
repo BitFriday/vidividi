@@ -20,7 +20,7 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(VIC);
+    unitlist.append(XDNA);
    // unitlist.append(mXDNA);
    // unitlist.append(uXDNA);
     return unitlist;
@@ -29,9 +29,9 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case VIC:
-    case mVIC:
-    case uVIC:
+    case XDNA:
+    case mXDNA:
+    case uXDNA:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case VIC:
-        return QString("vic");
-    case mVIC:
-        return QString("mvic");
-    case uVIC:
-        return QString::fromUtf8("uvic");
+    case XDNA:
+        return QString("xdna");
+    case mXDNA:
+        return QString("mxdna");
+    case uXDNA:
+        return QString::fromUtf8("uxdna");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case VIC:
-            return QString("VIC");
-        case mVIC:
-            return QString("mVIC");
-        case uVIC:
-            return QString::fromUtf8("μVIC");
+        case XDNA:
+            return QString("XDNA");
+        case mXDNA:
+            return QString("mDNA");
+        case uXDNA:
+            return QString::fromUtf8("μXDNA");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case VIC:
-            return QString("tVIC");
-        case mVIC:
-            return QString("mtVIC");
-        case uVIC:
-            return QString::fromUtf8("μtVIC");
+        case XDNA:
+            return QString("tXDNA");
+        case mXDNA:
+            return QString("mXtDNA");
+        case uXDNA:
+            return QString::fromUtf8("μtXDNA");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case VIC:
-            return QString("VIC");
-        case mVIC:
-            return QString("Milli-VIC (1 / 1" THIN_SP_UTF8 "000)");
-        case uVIC:
-            return QString("Micro-VIC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case XDNA:
+            return QString("XDNA");
+        case mXDNA:
+            return QString("Milli-XDNA (1 / 1" THIN_SP_UTF8 "000)");
+        case uXDNA:
+            return QString("Micro-XDNA (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case VIC:
+        case XDNA:
             return QString("TestXDNAs");
-        case mVIC:
-            return QString("Milli-TestVICs (1 / 1" THIN_SP_UTF8 "000)");
-        case uVIC:
-            return QString("Micro-TestVICs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case mXDNA:
+            return QString("Milli-TestXDNAs (1 / 1" THIN_SP_UTF8 "000)");
+        case uXDNA:
+            return QString("Micro-TestXDNAs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case VIC:
+    case XDNA:
         return 100000000;
-    case mVIC:
+    case mXDNA:
         return 100000;
-    case uVIC:
+    case uXDNA:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case VIC:
+    case XDNA:
         return 8;
-    case mVIC:
+    case mXDNA:
         return 5;
-    case uVIC:
+    case uXDNA:
         return 2;
     default:
         return 0;
