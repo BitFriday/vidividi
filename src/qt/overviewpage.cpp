@@ -45,7 +45,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::XDNA)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::VIC)
     {
     }
 
