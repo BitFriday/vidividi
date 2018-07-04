@@ -2808,11 +2808,11 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 uXDNAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXDNAs in fee,&lt;br /&gt;while "at least" pays 1000 uXDNAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uXDNAs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uXDNA i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uXDNAs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uXDNAs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uVIC i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uXDNAs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 uXDNAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXDNAs in fee,&lt;br /&gt;while "total at least" pays 1000 uXDNAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uXDNAs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uXDNA i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uXDNAs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uXDNAs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uVIC i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uXDNAs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for VIRIDI transactions than the network can process.</source>

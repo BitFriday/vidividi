@@ -22,7 +22,7 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
     QList<BitcoinUnits::Unit> unitlist;
     unitlist.append(VIC);
    // unitlist.append(mXDNA);
-   // unitlist.append(uXDNA);
+   // unitlist.append(uVIC);
     return unitlist;
 }
 
@@ -31,7 +31,7 @@ bool BitcoinUnits::valid(int unit)
     switch (unit) {
     case VIC:
     case mVIC:
-    case uXDNA:
+    case uVIC:
         return true;
     default:
         return false;
