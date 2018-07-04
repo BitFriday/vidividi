@@ -20,7 +20,7 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(VIRIDI);
+    unitlist.append(VIC);
    // unitlist.append(mXDNA);
    // unitlist.append(uXDNA);
     return unitlist;
@@ -29,8 +29,8 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case VIRIDI:
-    case mXDNA:
+    case VIC:
+    case mVIC:
     case uXDNA:
         return true;
     default:
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case VIRIDI:
-        return QString("xdna");
-    case mXDNA:
-        return QString("mxdna");
-    case uXDNA:
-        return QString::fromUtf8("uxdna");
+    case VIC:
+        return QString("vic");
+    case mVIC:
+        return QString("mvic");
+    case uVIC:
+        return QString::fromUtf8("uvic");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case VIRIDI:
-            return QString("VIRIDI");
-        case mXDNA:
-            return QString("mDNA");
-        case uXDNA:
-            return QString::fromUtf8("μXDNA");
+        case VIC:
+            return QString("VIC");
+        case mVIC:
+            return QString("mVIC");
+        case uVIC:
+            return QString::fromUtf8("μVIC");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case VIRIDI:
-            return QString("tXDNA");
-        case mXDNA:
-            return QString("mXtDNA");
-        case uXDNA:
-            return QString::fromUtf8("μtXDNA");
+        case VIC:
+            return QString("tVIC");
+        case mVIC:
+            return QString("mtVIC");
+        case uVIC:
+            return QString::fromUtf8("μtVIC");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case VIRIDI:
-            return QString("VIRIDI");
-        case mXDNA:
-            return QString("Milli-VIRIDI (1 / 1" THIN_SP_UTF8 "000)");
-        case uXDNA:
-            return QString("Micro-VIRIDI (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case VIC:
+            return QString("VIC");
+        case mVIC:
+            return QString("Milli-VIC (1 / 1" THIN_SP_UTF8 "000)");
+        case uVIC:
+            return QString("Micro-VIC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case VIRIDI:
-            return QString("TestXDNAs");
-        case mXDNA:
-            return QString("Milli-TestXDNAs (1 / 1" THIN_SP_UTF8 "000)");
-        case uXDNA:
-            return QString("Micro-TestXDNAs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case VIC:
+            return QString("TestVICs");
+        case mVIC:
+            return QString("Milli-TestVICs (1 / 1" THIN_SP_UTF8 "000)");
+        case uVIC:
+            return QString("Micro-TestVICs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case VIRIDI:
+    case VIC:
         return 100000000;
-    case mXDNA:
+    case mVIC:
         return 100000;
-    case uXDNA:
+    case uVIC:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case VIRIDI:
+    case VIC:
         return 8;
-    case mXDNA:
+    case mVIC:
         return 5;
-    case uXDNA:
+    case uVIC:
         return 2;
     default:
         return 0;
