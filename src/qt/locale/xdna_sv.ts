@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina XDNA adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your VIRIDI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina VIRIDI adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina XDNA adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your VIRIDI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina VIRIDI adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>XDNA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
-        <translation>XDNA kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina XDNAs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
+        <translation>VIRIDI kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina XDNAs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA XDNA&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VIRIDI&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA VIRIDI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a XDNA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en XDNA adress som du vill kryptera med BIP 38.
+        <source>Enter a VIRIDI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en VIRIDI adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>XDNA adressen för signera meddelandet med</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>VIRIDI adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna XDNA adress</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna VIRIDI adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>XDNA adressen meddelandet blev signerat med</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>VIRIDI adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika XDNA adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified VIRIDI address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika VIRIDI adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -584,11 +584,11 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     <message>
         <source>VIRIDI Core</source>
-        <translation>XDNA Kärna</translation>
+        <translation>VIRIDI Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a XDNA address</source>
-        <translation>Skicka mynt till en XDNA adress</translation>
+        <source>Send coins to a VIRIDI address</source>
+        <translation>Skicka mynt till en VIRIDI adress</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdna: URIs)</source>
@@ -604,23 +604,23 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     <message>
         <source>&amp;About VIRIDI Core</source>
-        <translation>Om XDNA Kärnan</translation>
+        <translation>Om VIRIDI Kärnan</translation>
     </message>
     <message>
         <source>Show information about VIRIDI Core</source>
-        <translation>Visa information om XDNA Kärnan</translation>
+        <translation>Visa information om VIRIDI Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for XDNA</source>
-        <translation>Ändra konfigurationsval för XDNA</translation>
+        <source>Modify configuration options for VIRIDI</source>
+        <translation>Ändra konfigurationsval för VIRIDI</translation>
     </message>
     <message>
-        <source>Sign messages with your XDNA addresses to prove you own them</source>
-        <translation>Signera meddelanden med din XDNA adress för att visa att du äger dem</translation>
+        <source>Sign messages with your VIRIDI addresses to prove you own them</source>
+        <translation>Signera meddelanden med din VIRIDI adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XDNA addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika XDNA adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified VIRIDI addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika VIRIDI adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -632,7 +632,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     <message>
         <source>VIRIDI Core client</source>
-        <translation>XDNA kärn klient</translation>
+        <translation>VIRIDI kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -842,14 +842,14 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     <name>HelpMessageDialog</name>
     <message>
         <source>VIRIDI Core</source>
-        <translation>XDNA Kärna</translation>
+        <translation>VIRIDI Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>VIRIDI Core</source>
-        <translation>XDNA Kärna</translation>
+        <translation>VIRIDI Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1106,8 +1106,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>XDNA adressen för signera meddelandet med</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>VIRIDI adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1130,16 +1130,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna XDNA adress</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna VIRIDI adress</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>XDNA adressen meddelandet blev signerat med</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>VIRIDI adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika XDNA adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified VIRIDI address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika VIRIDI adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1182,7 +1182,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     <name>SplashScreen</name>
     <message>
         <source>VIRIDI Core</source>
-        <translation>XDNA Kärna</translation>
+        <translation>VIRIDI Kärna</translation>
     </message>
     </context>
 <context>

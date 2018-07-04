@@ -319,7 +319,7 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     tabGroup->addAction(overviewAction);
     
     sendCoinsAction = new QAction(QIcon(":/icons/send"), "", this);
-    sendCoinsAction->setStatusTip(tr("Send coins to a XDNA address"));
+    sendCoinsAction->setStatusTip(tr("Send coins to a VIRIDI address"));
     sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
     sendCoinsAction->setCheckable(true);
 #ifdef Q_OS_MAC
@@ -330,7 +330,7 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     tabGroup->addAction(sendCoinsAction);
    
     receiveCoinsAction = new QAction(QIcon(":/icons/receiving_addresses"), "", this);
-    receiveCoinsAction->setStatusTip(tr("Request payments (generates QR codes and XDNA: URIs)"));
+    receiveCoinsAction->setStatusTip(tr("Request payments (generates QR codes and VIRIDI: URIs)"));
     receiveCoinsAction->setToolTip(receiveCoinsAction->statusTip());
     receiveCoinsAction->setCheckable(true);
 #ifdef Q_OS_MAC
@@ -410,7 +410,7 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     aboutQtAction->setStatusTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setStatusTip(tr("Modify configuration options for XDNA"));
+    optionsAction->setStatusTip(tr("Modify configuration options for VIRIDI"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     toggleHideAction = new QAction(networkStyle->getAppIcon(), tr("&Show / Hide"), this);
     toggleHideAction->setStatusTip(tr("Show or hide the main Window"));
@@ -426,9 +426,9 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     unlockWalletAction->setToolTip(tr("Unlock wallet"));
     lockWalletAction = new QAction(tr("&Lock Wallet"), this);
     signMessageAction = new QAction(QIcon(":/icons/edit"), tr("Sign &message..."), this);
-    signMessageAction->setStatusTip(tr("Sign messages with your XDNA addresses to prove you own them"));
+    signMessageAction->setStatusTip(tr("Sign messages with your VIRIDI addresses to prove you own them"));
     verifyMessageAction = new QAction(QIcon(":/icons/transaction_0"), tr("&Verify message..."), this);
-    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified XDNA addresses"));
+    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified VIRIDI addresses"));
     bip38ToolAction = new QAction(QIcon(":/icons/key"), tr("&BIP38 tool"), this);
     bip38ToolAction->setToolTip(tr("Encrypt and decrypt private keys using a passphrase"));
     multiSendAction = new QAction(QIcon(":/icons/edit"), tr("&MultiSend"), this);
@@ -465,7 +465,7 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     multisigSignAction->setStatusTip(tr("Sign with a multisignature address"));
 
     openAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_FileIcon), tr("Open &URI..."), this);
-    openAction->setStatusTip(tr("Open a XDNA: URI or payment request"));
+    openAction->setStatusTip(tr("Open a VIRIDI: URI or payment request"));
 
     openBlockExplorerAction = new QAction(QIcon(":/icons/blockexplorer"), "", this);
     openBlockExplorerAction->setStatusTip(tr("Blockchain explorer"));
@@ -480,7 +480,7 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
 
     showHelpMessageAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_MessageBoxInformation), tr("&Command-line options"), this);
     showHelpMessageAction->setMenuRole(QAction::NoRole);
-    showHelpMessageAction->setStatusTip(tr("Show the VIRIDI Core help message to get a list with possible XDNA command-line options"));
+    showHelpMessageAction->setStatusTip(tr("Show the VIRIDI Core help message to get a list with possible VIRIDI command-line options"));
 
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
     connect(aboutAction, SIGNAL(triggered()), this, SLOT(aboutClicked()));
@@ -941,7 +941,7 @@ void BitcoinGUI::setNumConnections(int count)
     }
     QIcon connectionItem = QIcon(icon).pixmap(32, 32);
     labelConnectionsIcon->setIcon(connectionItem);
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to XDNA network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to VIRIDI network", "", count));
 }
 
 void BitcoinGUI::updateSyncAnimation()
@@ -1097,7 +1097,7 @@ void BitcoinGUI::message(const QString& title, const QString& message, unsigned 
             break;
         }
     }
-    // Append title to "XDNA - "
+    // Append title to "VIRIDI - "
     if (!msgType.isEmpty())
         strTitle += " - " + msgType;
 

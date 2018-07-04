@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços XDNA para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your VIRIDI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços VIRIDI para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços XDNA para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your VIRIDI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços VIRIDI para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>XDNA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DNAs from being stolen by malware infecting your computer.</source>
-        <translation>XDNA encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas DNAs contra roubo por malware infectando seu computador.</translation>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DNAs from being stolen by malware infecting your computer.</source>
+        <translation>VIRIDI encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas DNAs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA XDNA&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VIRIDI&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA VIRIDI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
-        <source>Enter a XDNA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Digite um endereço XDNA que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
+        <source>Enter a VIRIDI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Digite um endereço VIRIDI que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>Um endereço XDNA para assinar a mensagem</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>Um endereço VIRIDI para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço XDNA.</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço VIRIDI.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,8 +299,8 @@
         <translation>Criptografia BIP 38</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>O endereço XDNA que foi assinado com</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>O endereço VIRIDI que foi assinado com</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -633,8 +633,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>Um endereço XDNA para assinar a mensagem</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>Um endereço VIRIDI para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -665,12 +665,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço XDNA.</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço VIRIDI.</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>O endereço XDNA que foi assinado com</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>O endereço VIRIDI que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -874,8 +874,8 @@
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all XDNA specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionacilidades específicas da XDNA (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
+        <source>Disable all VIRIDI specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da VIRIDI (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>

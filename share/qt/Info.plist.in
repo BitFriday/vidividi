@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>XDNA-Qt</string>
+  <string>VIRIDI-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.xdna.XDNA-Qt</string>
+  <string>io.xdna.VIRIDI-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -54,7 +54,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.xdna.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>XDNA payment request</string>
+      <string>VIRIDI payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

@@ -35,9 +35,9 @@ def check_json_precision():
 def determine_db_dir():
     """Return the default location of the xdna data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/XDNA/")
+        return os.path.expanduser("~/Library/Application Support/VIRIDI/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "XDNA")
+        return os.path.join(os.environ['APPDATA'], "VIRIDI")
     return os.path.expanduser("~/.xdna")
 
 def read_bitcoin_config(dbdir):

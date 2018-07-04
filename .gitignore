@@ -89,7 +89,7 @@ libconftest.dylib*
 *.qm
 Makefile
 xdna-qt
-XDNA-Qt.app
+VIRIDI-Qt.app
 
 # Unit-tests
 Makefile.test

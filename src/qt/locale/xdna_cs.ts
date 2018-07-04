@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše XDNA adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your VIRIDI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše VIRIDI adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše XDNA adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your VIRIDI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše VIRIDI adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,15 +176,15 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>XDNA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
-        <translation>XDNA se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše XDNAy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
+        <translation>VIRIDI se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše XDNAy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VIRIDI&lt;/b&gt;!</source>
         <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE XDNAy&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a XDNA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte XDNA adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a VIRIDI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte VIRIDI adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>XDNA adresa pro podepsání zprávy</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>VIRIDI adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto XDNA adresu</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto VIRIDI adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>XDNA adresa zprávy byla podpsána</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>VIRIDI adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou XDNA adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified VIRIDI address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou VIRIDI adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,8 +602,8 @@
         <translation>VIRIDI Core</translation>
     </message>
     <message>
-        <source>Send coins to a XDNA address</source>
-        <translation>Odeslat platbuna XDNA adresu</translation>
+        <source>Send coins to a VIRIDI address</source>
+        <translation>Odeslat platbuna VIRIDI adresu</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdna: URIs)</source>
@@ -626,16 +626,16 @@
         <translation>Zobraz informace o VIRIDI Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for XDNA</source>
-        <translation>Upravit možnosti konfigurace pro XDNA</translation>
+        <source>Modify configuration options for VIRIDI</source>
+        <translation>Upravit možnosti konfigurace pro VIRIDI</translation>
     </message>
     <message>
-        <source>Sign messages with your XDNA addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší XDNA adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your VIRIDI addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší VIRIDI adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XDNA addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými XDNA adresami</translation>
+        <source>Verify messages to ensure they were signed with specified VIRIDI addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými VIRIDI adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a XDNA: URI or payment request</source>
-        <translation>Otevřít XDNA: URI nebo platební žádost</translation>
+        <source>Open a VIRIDI: URI or payment request</source>
+        <translation>Otevřít VIRIDI: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,8 +678,8 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the VIRIDI Core help message to get a list with possible XDNA command-line options</source>
-        <translation>Zobrazit VIRIDI Core pomocnou zpráv pro získání seznamu možných parametrů XDNA pro příkazy do příkazové řádky</translation>
+        <source>Show the VIRIDI Core help message to get a list with possible VIRIDI command-line options</source>
+        <translation>Zobrazit VIRIDI Core pomocnou zpráv pro získání seznamu možných parametrů VIRIDI pro příkazy do příkazové řádky</translation>
     </message>
     <message>
         <source>VIRIDI Core client</source>
@@ -1070,8 +1070,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid XDNA address.</source>
-        <translation>Zadaná adresa "%1" není validní XDNA adresa.</translation>
+        <source>The entered address "%1" is not a valid VIRIDI address.</source>
+        <translation>Zadaná adresa "%1" není validní VIRIDI adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1163,8 +1163,8 @@ MultiSend: %1</translation>
         <translation>Při prvním spuštění programu si můžete vybrat, kam bude VIRIDI Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>VIRIDI Core will download and store a copy of the XDNA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>VIRIDI Core stáhne a uloží kopii XDNA blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>VIRIDI Core will download and store a copy of the VIRIDI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>VIRIDI Core stáhne a uloží kopii VIRIDI blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1442,24 +1442,24 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Vyberte úrpvěň ochrany soukromí</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XDNA</source>
-        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 XDNA</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 VIRIDI</source>
+        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 VIRIDI</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použít 16 oddělených masternodů</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XDNA to anonymize 10000 XDNA</source>
-        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 XDNA pro anonymizaci 10000 XDNA</translation>
+        <source>This option is the quickest and will cost about ~0.025 VIRIDI to anonymize 10000 VIRIDI</source>
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 VIRIDI pro anonymizaci 10000 VIRIDI</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití maximalní anonymity bude stát</translation>
     </message>
     <message>
-        <source>0.1 XDNA per 10000 XDNA you anonymize.</source>
-        <translation>0.1 XDNA za 10000 XDNA anonymizujete.</translation>
+        <source>0.1 VIRIDI per 10000 VIRIDI you anonymize.</source>
+        <translation>0.1 VIRIDI za 10000 VIRIDI anonymizujete.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1524,16 +1524,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start XDNA after logging in to the system.</source>
-        <translation>Automaticky spustit XDNA po přihlášení do systému</translation>
+        <source>Automatically start VIRIDI after logging in to the system.</source>
+        <translation>Automaticky spustit VIRIDI po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start XDNA on system login</source>
-        <translation>&amp;Spusti XDNA při přihlášení do systému</translation>
+        <source>&amp;Start VIRIDI on system login</source>
+        <translation>&amp;Spusti VIRIDI při přihlášení do systému</translation>
     </message>
     <message>
-        <source>Amount of XDNA to keep anonymized</source>
-        <translation>Počet XDNA pro anonymní držení</translation>
+        <source>Amount of VIRIDI to keep anonymized</source>
+        <translation>Počet VIRIDI pro anonymní držení</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -1639,8 +1639,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Obfuskační Balance:</translation>
     </message>
     <message>
-        <source>0 XDNA / 0 Rounds</source>
-        <translation>0 XDNA / 0 Kol</translation>
+        <source>0 VIRIDI / 0 Rounds</source>
+        <translation>0 VIRIDI / 0 Kol</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2066,8 +2066,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 XDNA</source>
-        <translation>0 XDNA</translation>
+        <source>0 VIRIDI</source>
+        <translation>0 VIRIDI</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2199,8 +2199,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>XDNA adresa pro podepsání zprávy</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>VIRIDI adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2227,16 +2227,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto XDNA adresu</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto VIRIDI adresu</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>XDNA adresa zprávy byla podpsána</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>VIRIDI adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou XDNA adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified VIRIDI address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou VIRIDI adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

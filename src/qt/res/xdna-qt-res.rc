@@ -19,8 +19,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "XDNA"
-            VALUE "FileDescription",    "VIRIDI Core (OSS GUI client for XDNA)"
+            VALUE "CompanyName",        "VIRIDI"
+            VALUE "FileDescription",    "VIRIDI Core (OSS GUI client for VIRIDI)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "xdna-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR

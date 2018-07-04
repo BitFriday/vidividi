@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  xdnad The XDNA server.
+#  xdnad The VIRIDI server.
 #
 #
 # chkconfig: 345 80 20

@@ -152,16 +152,16 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>XDNA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
-        <translation>XDNA va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos XDNAs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
+        <translation>VIRIDI va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos XDNAs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
-        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS XDNA&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VIRIDI&lt;/b&gt;!</source>
+        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS VIRIDI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -211,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a XDNA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse XDNA que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a VIRIDI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse VIRIDI que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>L'adresse XDNA avec laquelle signer le message</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>L'adresse VIRIDI avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse XDNA</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse VIRIDI</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>L'adresse XDNA avec laquelle le message a été signé</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>L'adresse VIRIDI avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse XDNA renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified VIRIDI address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse VIRIDI renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a XDNA address</source>
-        <translation>Envoyer des pièces à une adresse XDNA</translation>
+        <source>Send coins to a VIRIDI address</source>
+        <translation>Envoyer des pièces à une adresse VIRIDI</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for XDNA</source>
-        <translation>Modifier les options de configuration pour XDNA</translation>
+        <source>Modify configuration options for VIRIDI</source>
+        <translation>Modifier les options de configuration pour VIRIDI</translation>
     </message>
     <message>
-        <source>Sign messages with your XDNA addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse XDNA pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your VIRIDI addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse VIRIDI pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XDNA addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse XDNA spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified VIRIDI addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse VIRIDI spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -854,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid XDNA address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse XDNA valide</translation>
+        <source>The entered address "%1" is not a valid VIRIDI address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse VIRIDI valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1038,32 +1038,32 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Veuillez sélectionner un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XDNA</source>
-        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 XDNA</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 VIRIDI</source>
+        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 VIRIDI</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XDNA</source>
-        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 XDNA</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 VIRIDI</source>
+        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 VIRIDI</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utiliser 16 masternodes différentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XDNA to anonymize 10000 XDNA</source>
-        <translation>Cette option est la plus rapide, et coutera ~0.025 XDNA pour anonymiser 10000 XDNA</translation>
+        <source>This option is the quickest and will cost about ~0.025 VIRIDI to anonymize 10000 VIRIDI</source>
+        <translation>Cette option est la plus rapide, et coutera ~0.025 VIRIDI pour anonymiser 10000 VIRIDI</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XDNA to anonymize 10000 XDNA</source>
-        <translation>Cette option est moyennement rapide, et coutera 0.05 XDNA pour anonymiser 10000 XDNA</translation>
+        <source>This option is moderately fast and will cost about 0.05 VIRIDI to anonymize 10000 VIRIDI</source>
+        <translation>Cette option est moyennement rapide, et coutera 0.05 VIRIDI pour anonymiser 10000 VIRIDI</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Il s'agit de l'option la plus lente est la plus sécurisé. Utiliser l'anonymat maximum coutera</translation>
     </message>
     <message>
-        <source>0.1 XDNA per 10000 XDNA you anonymize.</source>
-        <translation>0.1 XDNA par 10000 XDNA vous anonymisez.</translation>
+        <source>0.1 VIRIDI per 10000 VIRIDI you anonymize.</source>
+        <translation>0.1 VIRIDI par 10000 VIRIDI vous anonymisez.</translation>
     </message>
     </context>
 <context>
@@ -1370,8 +1370,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Après commission</translation>
     </message>
     <message>
-        <source>0 XDNA</source>
-        <translation>0 XDNA</translation>
+        <source>0 VIRIDI</source>
+        <translation>0 VIRIDI</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1461,8 +1461,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The XDNA address to send the payment to</source>
-        <translation>L'adresse XDNA à laquelle envoyer le paiement</translation>
+        <source>The VIRIDI address to send the payment to</source>
+        <translation>L'adresse VIRIDI à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1507,8 +1507,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>L'adresse XDNA avec laquelle signer le message</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>L'adresse VIRIDI avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1535,16 +1535,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse XDNA</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse VIRIDI</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>L'adresse XDNA avec laquelle le message a été signé</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>L'adresse VIRIDI avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse XDNA renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified VIRIDI address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse VIRIDI renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

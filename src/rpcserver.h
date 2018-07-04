@@ -97,7 +97,7 @@ public:
 };
 
 /**
- * XDNA RPC command dispatcher.
+ * VIRIDI RPC command dispatcher.
  */
 class CRPCTable
 {

@@ -33,7 +33,7 @@ class QUrl;
 class QWidget;
 QT_END_NAMESPACE
 
-/** Utility functions used by the XDNA Qt UI.
+/** Utility functions used by the VIRIDI Qt UI.
  */
 namespace GUIUtil
 {
@@ -41,7 +41,7 @@ namespace GUIUtil
 QString dateTimeStr(const QDateTime& datetime);
 QString dateTimeStr(qint64 nTime);
 
-// Render XDNA addresses in monospace font
+// Render VIRIDI addresses in monospace font
 QFont bitcoinAddressFont();
 
 // Set up widgets for address and amounts

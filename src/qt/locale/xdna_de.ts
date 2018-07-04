@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie XDNA überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie VIRIDI überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie XDNA empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie VIRIDI empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre XDNA-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie XDNA überweisen.</translation>
+        <source>These are your VIRIDI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre VIRIDI-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie VIRIDI überweisen.</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre XDNA-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your VIRIDI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre VIRIDI-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,7 +176,7 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>XDNA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
         <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer XDNAs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Sind Sie sich sicher, dass Sie ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VIRIDI&lt;/b&gt;!</source>
         <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre XDNAs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Verschlüsselung</translation>
     </message>
     <message>
-        <source>Enter a XDNA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Gib eine XDNA Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
+        <source>Enter a VIRIDI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Gib eine VIRIDI Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>XDNA Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>VIRIDI Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese XDNA Adresse besitzt</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese VIRIDI Adresse besitzt</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Geben Sie den BIP 38 verschlüsselten privaten Schlüssel ein. Geben Sie die Passphrase im mittleren Feld ein. Klicken Sie auf Entschlüsselung, um den privaten Schlüssel zu berechnen. Nachdem der Schlüssel entschlüsselt wurde, klicken Sie auf 'Adresse importieren', fügen Sie diesen privaten Schlüssel der Wallet hinzu.</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>Die XDNA Adresse mit welcher die Nachricht signiert wurde.</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>Die VIRIDI Adresse mit welcher die Nachricht signiert wurde.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen XDNA-Adresse signiert wurde.</translation>
+        <source>Verify the message to ensure it was signed with the specified VIRIDI address</source>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen VIRIDI-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -606,8 +606,8 @@
         <translation>VIRIDI Core</translation>
     </message>
     <message>
-        <source>Send coins to a XDNA address</source>
-        <translation>An eine XDNA-Adresse überweisen</translation>
+        <source>Send coins to a VIRIDI address</source>
+        <translation>An eine VIRIDI-Adresse überweisen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdna: URIs)</source>
@@ -630,16 +630,16 @@
         <translation>Zeigt Informationen über VIRIDI Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for XDNA</source>
-        <translation>Konfiguration von XDNA verändern</translation>
+        <source>Modify configuration options for VIRIDI</source>
+        <translation>Konfiguration von VIRIDI verändern</translation>
     </message>
     <message>
-        <source>Sign messages with your XDNA addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer XDNA-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <source>Sign messages with your VIRIDI addresses to prove you own them</source>
+        <translation>Unterschreibt eine Nachricht mit Ihrer VIRIDI-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XDNA addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten XDNA-Adresse signiert wurde</translation>
+        <source>Verify messages to ensure they were signed with specified VIRIDI addresses</source>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten VIRIDI-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Öffne Masternode Einstellungsdatei</translation>
     </message>
     <message>
-        <source>Open a XDNA: URI or payment request</source>
-        <translation>Öffne eine XDNA: URI or Zahlungsanfrage</translation>
+        <source>Open a VIRIDI: URI or payment request</source>
+        <translation>Öffne eine VIRIDI: URI or Zahlungsanfrage</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,8 +678,8 @@
         <translation>Blockchain Betrachter Fenster</translation>
     </message>
     <message>
-        <source>Show the VIRIDI Core help message to get a list with possible XDNA command-line options</source>
-        <translation>Zeige die XDNA-Core Hilfe, um mögliche XDNA Kommando-Zeilen-Optionen anzuzeigen</translation>
+        <source>Show the VIRIDI Core help message to get a list with possible VIRIDI command-line options</source>
+        <translation>Zeige die VIRIDI-Core Hilfe, um mögliche VIRIDI Kommando-Zeilen-Optionen anzuzeigen</translation>
     </message>
     <message>
         <source>VIRIDI Core client</source>
@@ -1113,8 +1113,8 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid XDNA address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige XDNA-Adresse.</translation>
+        <source>The entered address "%1" is not a valid VIRIDI address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige VIRIDI-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1222,7 +1222,7 @@ Adresse: %4</translation>
         <translation>Da dies das erste Mal ist, dass Sie VIRIDI Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>VIRIDI Core will download and store a copy of the XDNA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>VIRIDI Core will download and store a copy of the VIRIDI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>VIRIDI Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
@@ -1372,12 +1372,12 @@ Adresse: %4</translation>
         <translation>Zieladresse eingeben</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other XDNA addresses after it matures.
-To Add: enter percentage to give and XDNA address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other VIRIDI addresses after it matures.
+To Add: enter percentage to give and VIRIDI address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen XDNA-Adressen zu senden.
-Zum hinzufügen: Gebe den Prozentsätze ein, um die XDNA-Adressen des MultiSend-Vektor hinzuzufügen.
+        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen VIRIDI-Adressen zu senden.
+Zum hinzufügen: Gebe den Prozentsätze ein, um die VIRIDI-Adressen des MultiSend-Vektor hinzuzufügen.
 Zum entfernen: Gebe die zu löschende Adresse ein und drücke löschen.
 MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translation>
     </message>
@@ -1572,8 +1572,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Verschleierter Betrag:</translation>
     </message>
     <message>
-        <source>0 XDNA / 0 Rounds</source>
-        <translation>0 XDNA/ 0 Runden</translation>
+        <source>0 VIRIDI / 0 Rounds</source>
+        <translation>0 VIRIDI/ 0 Runden</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1705,8 +1705,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a XDNA address (e.g. %1)</source>
-        <translation>XDNA-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a VIRIDI address (e.g. %1)</source>
+        <translation>VIRIDI-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1967,8 +1967,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>UTXO Größe:</translation>
     </message>
     <message>
-        <source>0 XDNA</source>
-        <translation>0 XDNA</translation>
+        <source>0 VIRIDI</source>
+        <translation>0 VIRIDI</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2106,8 +2106,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The XDNA address to send the payment to</source>
-        <translation>XDNA-Adresse, an die überwiesen werden soll</translation>
+        <source>The VIRIDI address to send the payment to</source>
+        <translation>VIRIDI-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2146,8 +2146,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the XDNA: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the XDNA network.</source>
-        <translation>Eine an die XDNA-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das XDNA-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the VIRIDI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the VIRIDI network.</source>
+        <translation>Eine an die VIRIDI-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das VIRIDI-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2188,8 +2188,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Nachricht &amp;signieren</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>XDNA Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>VIRIDI Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2216,16 +2216,16 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese XDNA Adresse besitzt</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese VIRIDI Adresse besitzt</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>Die XDNA Adresse mit welcher die Nachricht signiert wurde.</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>Die VIRIDI Adresse mit welcher die Nachricht signiert wurde.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen XDNA-Adresse signiert wurde.</translation>
+        <source>Verify the message to ensure it was signed with the specified VIRIDI address</source>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen VIRIDI-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2803,8 +2803,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>XDNAs überweisen</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XDNA.</source>
-        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 XDNA begrenzt.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 VIRIDI.</source>
+        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 VIRIDI begrenzt.</translation>
     </message>
 </context>
 <context>

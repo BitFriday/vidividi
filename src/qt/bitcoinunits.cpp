@@ -20,7 +20,7 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(XDNA);
+    unitlist.append(VIRIDI);
    // unitlist.append(mXDNA);
    // unitlist.append(uXDNA);
     return unitlist;
@@ -29,7 +29,7 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case XDNA:
+    case VIRIDI:
     case mXDNA:
     case uXDNA:
         return true;
@@ -41,7 +41,7 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case XDNA:
+    case VIRIDI:
         return QString("xdna");
     case mXDNA:
         return QString("mxdna");
@@ -56,8 +56,8 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case XDNA:
-            return QString("XDNA");
+        case VIRIDI:
+            return QString("VIRIDI");
         case mXDNA:
             return QString("mDNA");
         case uXDNA:
@@ -67,7 +67,7 @@ QString BitcoinUnits::name(int unit)
         }
     } else {
         switch (unit) {
-        case XDNA:
+        case VIRIDI:
             return QString("tXDNA");
         case mXDNA:
             return QString("mXtDNA");
@@ -83,18 +83,18 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case XDNA:
-            return QString("XDNA");
+        case VIRIDI:
+            return QString("VIRIDI");
         case mXDNA:
-            return QString("Milli-XDNA (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-VIRIDI (1 / 1" THIN_SP_UTF8 "000)");
         case uXDNA:
-            return QString("Micro-XDNA (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-VIRIDI (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case XDNA:
+        case VIRIDI:
             return QString("TestXDNAs");
         case mXDNA:
             return QString("Milli-TestXDNAs (1 / 1" THIN_SP_UTF8 "000)");
@@ -109,7 +109,7 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case XDNA:
+    case VIRIDI:
         return 100000000;
     case mXDNA:
         return 100000;
@@ -123,7 +123,7 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case XDNA:
+    case VIRIDI:
         return 8;
     case mXDNA:
         return 5;

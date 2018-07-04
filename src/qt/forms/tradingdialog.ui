@@ -442,7 +442,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy XDNA</string>
+      <string>Buy VIRIDI</string>
      </property>
      <property name="icon">
       <iconset resource="../xdna.qrc">
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>XDNA</string>
+      <string>VIRIDI</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,7 +1704,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>XDNA</string>
+      <string>VIRIDI</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="UnitsInputXDNA">
@@ -1751,7 +1751,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell XDNA</string>
+      <string>Sell VIRIDI</string>
      </property>
      <property name="icon">
       <iconset resource="../xdna">
@@ -1777,7 +1777,7 @@
          </font>
         </property>
         <property name="text">
-         <string>XDNA Available:</string>
+         <string>VIRIDI Available:</string>
         </property>
        </widget>
       </item>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>XDNA</string>
+         <string>VIRIDI</string>
         </property>
        </widget>
       </item>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>XDNA Balance:</string>
+      <string>VIRIDI Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>XDNA Available:</string>
+      <string>VIRIDI Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,7 +2832,7 @@
       </font>
      </property>
      <property name="text">
-      <string>XDNA Pending:</string>
+      <string>VIRIDI Pending:</string>
      </property>
     </widget>
     <widget class="QLabel" name="XDNAPendingLabel">
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex XDNA Deposit Address:</string>
+      <string>Bittrex VIRIDI Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2941,7 +2941,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate XDNA Deposit Address</string>
+      <string>Generate VIRIDI Deposit Address</string>
      </property>
      <property name="icon">
       <iconset resource="../xdna.qrc">

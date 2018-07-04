@@ -1,4 +1,4 @@
-/**************************************XDNA**********************************************/
+/**************************************VIRIDI**********************************************/
 /****************************************************************************************/
                     /*************** GLOBAL STYLE*****************/
 /****************************************************************************************/
@@ -733,7 +733,7 @@
      }
 
 
-     QWidget .QFrame#frame_blue .QLabel#label_XDNA2 { /*XDNA */
+     QWidget .QFrame#frame_blue .QLabel#label_XDNA2 { /*VIRIDI */
         background-color:transparent;
         color:rgb(255, 255, 255);
         font-size:15px;
@@ -751,7 +751,7 @@
         font-size:30px;
      }
 
-     QWidget .QFrame#frame_blue .QLabel#label_XDNA3 { /*XDNA */
+     QWidget .QFrame#frame_blue .QLabel#label_XDNA3 { /*VIRIDI */
         background-color:transparent;
         color:rgb(255, 255, 255);
         font-size:15px;
@@ -771,7 +771,7 @@
      }
 
 
-     QWidget .QFrame#frame_blue .QLabel#label_XDNA4 { /*XDNA */
+     QWidget .QFrame#frame_blue .QLabel#label_XDNA4 { /*VIRIDI */
         background-color:transparent;
         color:rgb(255, 255, 255);
         font-size:15px;
@@ -2150,7 +2150,7 @@
     border:0;
     }
 
-    /* About XDNA Dialog */
+    /* About VIRIDI Dialog */
     QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Bulwark Contents */
     margin-left:10px;
     }

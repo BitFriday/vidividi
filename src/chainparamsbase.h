@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between xdna-cli and xdnad)
- * of a given instance of the XDNA system.
+ * of a given instance of the VIRIDI system.
  */
 class CBaseChainParams
 {

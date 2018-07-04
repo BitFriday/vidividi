@@ -1,5 +1,5 @@
 [Unit]
-Description=XDNA's distributed currency daemon
+Description=VIRIDI's distributed currency daemon
 After=network.target
 
 [Service]

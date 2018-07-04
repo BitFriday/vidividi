@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши XDNA-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your VIRIDI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши VIRIDI-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши XDNA-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your VIRIDI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши VIRIDI-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Подтвердить шифрование кошелька</translation>
     </message>
     <message>
-        <source>XDNA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
-        <translation>XDNA сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши XDNA от кражи с использованием вредоносного ПО.</translation>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
+        <translation>VIRIDI сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши VIRIDI от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ XDNA&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VIRIDI&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ VIRIDI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a XDNA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите XDNA адрес, который вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашифрованный секретный ключ.</translation>
+        <source>Enter a VIRIDI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите VIRIDI адрес, который вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашифрованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>Адрес XDNA для подписи сообщения</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>Адрес VIRIDI для подписи сообщения</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить владение данным XDNA адресом</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить владение данным VIRIDI адресом</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите `Дешифровать Ключ` чтобы создать секретный ключ. Нажав на `Импортировать Адрес` после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>Адрес XDNA, которым подписано сообщение</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>Адрес VIRIDI, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным XDNA адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified VIRIDI address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным VIRIDI адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,12 +598,12 @@
         <translation>VIRIDI Core</translation>
     </message>
     <message>
-        <source>Send coins to a XDNA address</source>
-        <translation>Отправить монеты на XDNA адрес</translation>
+        <source>Send coins to a VIRIDI address</source>
+        <translation>Отправить монеты на VIRIDI адрес</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdna: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и XDNA: URI)</translation>
+        <translation>Запросить платежи (генерирует QR-код и VIRIDI: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -622,16 +622,16 @@
         <translation>Показать информацию о VIRIDI Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for XDNA</source>
-        <translation>Изменение параметров конфигурации XDNA</translation>
+        <source>Modify configuration options for VIRIDI</source>
+        <translation>Изменение параметров конфигурации VIRIDI</translation>
     </message>
     <message>
-        <source>Sign messages with your XDNA addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими XDNA адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your VIRIDI addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими VIRIDI адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XDNA addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным XDNA адресом </translation>
+        <source>Verify messages to ensure they were signed with specified VIRIDI addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным VIRIDI адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -662,8 +662,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a XDNA: URI or payment request</source>
-        <translation>Открыть XDNA: URI или запрос платежа</translation>
+        <source>Open a VIRIDI: URI or payment request</source>
+        <translation>Открыть VIRIDI: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,16 +674,16 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the VIRIDI Core help message to get a list with possible XDNA command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям коммандной строки XDNA</translation>
+        <source>Show the VIRIDI Core help message to get a list with possible VIRIDI command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям коммандной строки VIRIDI</translation>
     </message>
     <message>
         <source>VIRIDI Core client</source>
         <translation>Клиент VIRIDI Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to XDNA network</source>
-        <translation><numerusform>%n активное подключение к сети XDNA</numerusform></translation>
+        <source>%n active connection(s) to VIRIDI network</source>
+        <translation><numerusform>%n активное подключение к сети VIRIDI</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1130,8 +1130,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid XDNA address.</source>
-        <translation>Введенный адрес "%1" не является XDNA адресом.</translation>
+        <source>The entered address "%1" is not a valid VIRIDI address.</source>
+        <translation>Введенный адрес "%1" не является VIRIDI адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1239,8 +1239,8 @@ MultiSend: %1</translation>
         <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные VIRIDI Core.</translation>
     </message>
     <message>
-        <source>VIRIDI Core will download and store a copy of the XDNA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>VIRIDI Core загрузит и сохранит копию цепочки блоков XDNA. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться файл кошелька.</translation>
+        <source>VIRIDI Core will download and store a copy of the VIRIDI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>VIRIDI Core загрузит и сохранит копию цепочки блоков VIRIDI. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться файл кошелька.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1393,12 +1393,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other XDNA addresses after it matures.
-To Add: enter percentage to give and XDNA address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other VIRIDI addresses after it matures.
+To Add: enter percentage to give and VIRIDI address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и стэйкинг, после их созревания, на другие XDNA адреса.
-Для добавления: введите передаваемый процент и XDNA адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и стэйкинг, после их созревания, на другие VIRIDI адреса.
+Для добавления: введите передаваемый процент и VIRIDI адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1536,48 +1536,48 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XDNA</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 XDNA</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 VIRIDI</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 VIRIDI</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XDNA</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 XDNA</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 VIRIDI</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 VIRIDI</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XDNA to anonymize 10000 XDNA</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 XDNA для анонимизации 10000 XDNA</translation>
+        <source>This option is the quickest and will cost about ~0.025 VIRIDI to anonymize 10000 VIRIDI</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 VIRIDI для анонимизации 10000 VIRIDI</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XDNA to anonymize 10000 XDNA</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 XDNA для анонимизации 10000 XDNA</translation>
+        <source>This option is moderately fast and will cost about 0.05 VIRIDI to anonymize 10000 VIRIDI</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 VIRIDI для анонимизации 10000 VIRIDI</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 XDNA per 10000 XDNA you anonymize.</source>
-        <translation>0.1 XDNA за 10000 XDNA которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 VIRIDI per 10000 VIRIDI you anonymize.</source>
+        <translation>0.1 VIRIDI за 10000 VIRIDI которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Настройка Перемешивания</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening XDNA's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки XDNA.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening VIRIDI's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки VIRIDI.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening XDNA's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки XDNA.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening VIRIDI's configuration screen.</source>
+        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки VIRIDI.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening XDNA's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки XDNA.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening VIRIDI's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки VIRIDI.</translation>
     </message>
 </context>
 <context>
@@ -1638,8 +1638,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the XDNA client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт XDNA через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the VIRIDI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт VIRIDI через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1658,12 +1658,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start XDNA after logging in to the system.</source>
-        <translation>Автоматически запускать XDNA после входа в систему.</translation>
+        <source>Automatically start VIRIDI after logging in to the system.</source>
+        <translation>Автоматически запускать VIRIDI после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start XDNA on system login</source>
-        <translation>&amp;Запускать XDNA при входе в систему</translation>
+        <source>&amp;Start VIRIDI on system login</source>
+        <translation>&amp;Запускать VIRIDI при входе в систему</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1678,8 +1678,8 @@ Please check the address and try again.</source>
         <translation>При достижении этого значения Перемешивание будет отключено.</translation>
     </message>
     <message>
-        <source>Amount of XDNA to keep anonymized</source>
-        <translation>Количество XDNA, держащихся анонимизированными</translation>
+        <source>Amount of VIRIDI to keep anonymized</source>
+        <translation>Количество VIRIDI, держащихся анонимизированными</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1706,8 +1706,8 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting XDNA.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска XDNA.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting VIRIDI.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска VIRIDI.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1720,8 +1720,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the XDNA network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети XDNA через SOCKS5 прокси.</translation>
+        <source>Connect to the VIRIDI network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети VIRIDI через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1875,8 +1875,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Балансы</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XDNA network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью XDNA после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the VIRIDI network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью VIRIDI после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1919,8 +1919,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Баланс Обфускации</translation>
     </message>
     <message>
-        <source>0 XDNA / 0 Rounds</source>
-        <translation>0 XDNA / 0 Циклов</translation>
+        <source>0 VIRIDI / 0 Rounds</source>
+        <translation>0 VIRIDI / 0 Циклов</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2076,8 +2076,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Не удалось запустить xdna: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid XDNA address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный XDNA адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid VIRIDI address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный VIRIDI адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2162,8 +2162,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a XDNA address (e.g. %1)</source>
-        <translation>Введите адрес XDNA (например %1)</translation>
+        <source>Enter a VIRIDI address (e.g. %1)</source>
+        <translation>Введите адрес VIRIDI (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2296,8 +2296,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the XDNA debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки XDNA. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the VIRIDI debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки VIRIDI. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2457,8 +2457,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the XDNA RPC console.</source>
-        <translation>Добро пожаловать в окружение XDNA RPC.</translation>
+        <source>Welcome to the VIRIDI RPC console.</source>
+        <translation>Добро пожаловать в окружение VIRIDI RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2677,8 +2677,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 XDNA</source>
-        <translation>0 XDNA</translation>
+        <source>0 VIRIDI</source>
+        <translation>0 VIRIDI</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2761,8 +2761,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Warning: Invalid XDNA address</source>
-        <translation>Предупреждение: неправильный XDNA адрес</translation>
+        <source>Warning: Invalid VIRIDI address</source>
+        <translation>Предупреждение: неправильный VIRIDI адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2826,8 +2826,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>Адрес XDNA для подписи сообщения </translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>Адрес VIRIDI для подписи сообщения </translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2850,16 +2850,16 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить владение адресом XDNA</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить владение адресом VIRIDI</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>Адрес XDNA, которым подписано сообщение</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>Адрес VIRIDI, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Проверьте сообщение, чтобы убедиться, что оно было подписано указанным XDNA адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified VIRIDI address</source>
+        <translation>Проверьте сообщение, чтобы убедиться, что оно было подписано указанным VIRIDI адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>

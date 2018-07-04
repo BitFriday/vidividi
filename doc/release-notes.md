@@ -1,13 +1,13 @@
 VIRIDI Core version 1.0 is now available from:
 
-  <https://github.com/XDNA-Core/XDNA/releases>
+  <https://github.com/VIRIDI-Core/VIRIDI/releases>
 
 This is a major version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/XDNA-Core/XDNA/issues>
+  <https://github.com/VIRIDI-Core/VIRIDI/issues>
 
 Compatibility
 ==============

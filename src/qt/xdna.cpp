@@ -195,7 +195,7 @@ private:
     void handleRunawayException(std::exception* e);
 };
 
-/** Main XDNA application object */
+/** Main VIRIDI application object */
 class BitcoinApplication : public QApplication
 {
     Q_OBJECT
@@ -484,7 +484,7 @@ void BitcoinApplication::initializeResult(int retval)
 
 #ifdef ENABLE_WALLET
         // Now that initialization/startup is done, process any command-line
-        // XDNA: URIs or payment requests:
+        // VIRIDI: URIs or payment requests:
         connect(paymentServer, SIGNAL(receivedPaymentRequest(SendCoinsRecipient)),
             window, SLOT(handlePaymentRequest(SendCoinsRecipient)));
         connect(window, SIGNAL(receivedURI(QString)),
@@ -506,7 +506,7 @@ void BitcoinApplication::shutdownResult(int retval)
 
 void BitcoinApplication::handleRunawayException(const QString& message)
 {
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. XDNA can no longer continue safely and will quit.") + QString("\n\n") + message);
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. VIRIDI can no longer continue safely and will quit.") + QString("\n\n") + message);
     ::exit(1);
 }
 

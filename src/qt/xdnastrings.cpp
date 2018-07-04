@@ -42,7 +42,7 @@ QT_TRANSLATE_NOOP("xdna-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
 QT_TRANSLATE_NOOP("xdna-core", ""
-"Disable all XDNA specific functionality (Masternodes, Obfuscation, SwiftX) "
+"Disable all VIRIDI specific functionality (Masternodes, Obfuscation, SwiftX) "
 "(0-1, default: %u)"),
 QT_TRANSLATE_NOOP("xdna-core", ""
 "Distributed under the MIT software license, see the accompanying file "
@@ -73,10 +73,10 @@ QT_TRANSLATE_NOOP("xdna-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
 QT_TRANSLATE_NOOP("xdna-core", ""
-"Fees (in XDNA/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in VIRIDI/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("xdna-core", ""
-"Fees (in XDNA/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in VIRIDI/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("xdna-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -161,17 +161,17 @@ QT_TRANSLATE_NOOP("xdna-core", ""
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
-"for example: alertnotify=echo %%s | mail -s \"XDNA Alert\" admin@foo.com\n"),
+"for example: alertnotify=echo %%s | mail -s \"VIRIDI Alert\" admin@foo.com\n"),
 QT_TRANSLATE_NOOP("xdna-core", ""
 "Unable to bind to %s on this computer. VIRIDI Core is probably already running."),
 QT_TRANSLATE_NOOP("xdna-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("xdna-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 1000/3000/5000 XDNA."),
+"transaction that are not equal 1000/3000/5000 VIRIDI."),
 QT_TRANSLATE_NOOP("xdna-core", ""
 "Unable to locate enough funds for this transaction that are not equal 1000/3000/5000 "
-"XDNA."),
+"VIRIDI."),
 QT_TRANSLATE_NOOP("xdna-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -278,7 +278,7 @@ QT_TRANSLATE_NOOP("xdna-core", "Error: Wallet locked, unable to create transacti
 QT_TRANSLATE_NOOP("xdna-core", "Error: You already have pending entries in the Obfuscation pool"),
 QT_TRANSLATE_NOOP("xdna-core", "Failed to listen on any port. Use -listen=0 if you want this."),
 QT_TRANSLATE_NOOP("xdna-core", "Failed to read block"),
-QT_TRANSLATE_NOOP("xdna-core", "Fee (in XDNA/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("xdna-core", "Fee (in VIRIDI/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("xdna-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("xdna-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("xdna-core", "Found enough users, signing ( waiting %s )"),
@@ -309,7 +309,7 @@ QT_TRANSLATE_NOOP("xdna-core", "Invalid netmask specified in -whitelist: '%s'"),
 QT_TRANSLATE_NOOP("xdna-core", "Invalid port detected in masternode.conf"),
 QT_TRANSLATE_NOOP("xdna-core", "Invalid private key."),
 QT_TRANSLATE_NOOP("xdna-core", "Invalid script detected."),
-QT_TRANSLATE_NOOP("xdna-core", "Keep N XDNA anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("xdna-core", "Keep N VIRIDI anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("xdna-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("xdna-core", "Last Obfuscation was too recent."),
 QT_TRANSLATE_NOOP("xdna-core", "Last successful Obfuscation action was too recent."),

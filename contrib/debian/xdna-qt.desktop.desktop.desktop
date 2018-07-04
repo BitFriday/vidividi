@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=XDNA
-Comment=XDNA P2P Cryptocurrency
+Name=VIRIDI
+Comment=VIRIDI P2P Cryptocurrency
 Exec=xdna-qt %u
 Terminal=false
 Type=Application

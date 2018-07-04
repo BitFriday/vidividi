@@ -62,12 +62,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones XDNA para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
+        <source>These are your VIRIDI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones VIRIDI para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones XDNA para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your VIRIDI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son sus direcciones VIRIDI para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>XDNA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
-        <translation>XDNA se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus XDNAs no sean robados mediante malware de su ordenador.</translation>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
+        <translation>VIRIDI se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus XDNAs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Está seguro de que desea cifrar su monedero?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
-        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS XDNA&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VIRIDI&lt;/b&gt;!</source>
+        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS VIRIDI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;Cifrado BIP 38</translation>
     </message>
     <message>
-        <source>Enter a XDNA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Introduzca la dirección XDNA que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
+        <source>Enter a VIRIDI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Introduzca la dirección VIRIDI que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Dirección:</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>La dirección XDNA con la que desee firmar el mensaje</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>La dirección VIRIDI con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección XDNA</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección VIRIDI</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Introduzca la clave cifrada privada BIP 38. Introduzca la contraseña en el campo central. Haga clic en descifrar clave para generar la clave privada. Después de que la clave sea descifrada, pulsando en 'Importar dirección' añadirá esta clave privada al monedero.</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>La dirección XDNA con la que se firmó el mensaje</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>La dirección VIRIDI con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección XDNA especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified VIRIDI address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección VIRIDI especificada</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -603,11 +603,11 @@
     </message>
     <message>
         <source>VIRIDI Core</source>
-        <translation>Núcleo XDNA</translation>
+        <translation>Núcleo VIRIDI</translation>
     </message>
     <message>
-        <source>Send coins to a XDNA address</source>
-        <translation>Enviar coins a una dirección XDNA</translation>
+        <source>Send coins to a VIRIDI address</source>
+        <translation>Enviar coins a una dirección VIRIDI</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdna: URIs)</source>
@@ -623,23 +623,23 @@
     </message>
     <message>
         <source>&amp;About VIRIDI Core</source>
-        <translation>&amp;Sobre el núcleo de XDNA</translation>
+        <translation>&amp;Sobre el núcleo de VIRIDI</translation>
     </message>
     <message>
         <source>Show information about VIRIDI Core</source>
-        <translation>Mostrar información sobre el núcleo de XDNA</translation>
+        <translation>Mostrar información sobre el núcleo de VIRIDI</translation>
     </message>
     <message>
-        <source>Modify configuration options for XDNA</source>
-        <translation>Modificar las opciones de configuración de XDNA</translation>
+        <source>Modify configuration options for VIRIDI</source>
+        <translation>Modificar las opciones de configuración de VIRIDI</translation>
     </message>
     <message>
-        <source>Sign messages with your XDNA addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones XDNA para demostrar que le pertenecen</translation>
+        <source>Sign messages with your VIRIDI addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones VIRIDI para demostrar que le pertenecen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XDNA addresses</source>
-        <translation>Verificar mensajes para asegurar que están firmados con la dirección XDNA especificada</translation>
+        <source>Verify messages to ensure they were signed with specified VIRIDI addresses</source>
+        <translation>Verificar mensajes para asegurar que están firmados con la dirección VIRIDI especificada</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -670,8 +670,8 @@
         <translation>Abrir Fichero de Configuración de Nodos Maestros</translation>
     </message>
     <message>
-        <source>Open a XDNA: URI or payment request</source>
-        <translation>Abrir un XDNA: URI o solicitud de pago</translation>
+        <source>Open a VIRIDI: URI or payment request</source>
+        <translation>Abrir un VIRIDI: URI o solicitud de pago</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,7 +682,7 @@
         <translation>Ventana del explorador de bloques</translation>
     </message>
     <message>
-        <source>Show the VIRIDI Core help message to get a list with possible XDNA command-line options</source>
+        <source>Show the VIRIDI Core help message to get a list with possible VIRIDI command-line options</source>
         <translation>Mostrar la ayuda de VIRIDI Core para obtener una lista de posibles opciones en línea de comandos</translation>
     </message>
     <message>
@@ -690,8 +690,8 @@
         <translation>Cliente VIRIDI Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to XDNA network</source>
-        <translation><numerusform>%n conexión(es) activa a la red XDNA</numerusform><numerusform>%n conexion(es) activas a la red XDNA</numerusform></translation>
+        <source>%n active connection(s) to VIRIDI network</source>
+        <translation><numerusform>%n conexión(es) activa a la red VIRIDI</numerusform><numerusform>%n conexion(es) activas a la red VIRIDI</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1138,8 +1138,8 @@ MultiEnvío: %1</translation>
         <translation>Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid XDNA address.</source>
-        <translation>La dirección introducida "%1" no es una dirección XDNA válida.</translation>
+        <source>The entered address "%1" is not a valid VIRIDI address.</source>
+        <translation>La dirección introducida "%1" no es una dirección VIRIDI válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1185,7 +1185,7 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>VIRIDI Core</source>
-        <translation>Núcleo XDNA</translation>
+        <translation>Núcleo VIRIDI</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -1247,8 +1247,8 @@ MultiEnvío: %1</translation>
         <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará VIRIDI Core sus datos.</translation>
     </message>
     <message>
-        <source>VIRIDI Core will download and store a copy of the XDNA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>VIRIDI Core descargará y guardará una copia de la cadena de bloques XDNA. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
+        <source>VIRIDI Core will download and store a copy of the VIRIDI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>VIRIDI Core descargará y guardará una copia de la cadena de bloques VIRIDI. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1260,7 +1260,7 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>VIRIDI Core</source>
-        <translation>Núcleo XDNA</translation>
+        <translation>Núcleo VIRIDI</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1401,12 +1401,12 @@ MultiEnvío: %1</translation>
         <translation>Introduzca Dirección a la cual Enviar</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other XDNA addresses after it matures.
-To Add: enter percentage to give and XDNA address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other VIRIDI addresses after it matures.
+To Add: enter percentage to give and VIRIDI address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones XDNA después de su maduración.
-Para Añadir: introduzca porcentaje a enviar y las direcciones XDNA a añadir al vector MultiEnvío.
+        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones VIRIDI después de su maduración.
+Para Añadir: introduzca porcentaje a enviar y las direcciones VIRIDI a añadir al vector MultiEnvío.
 Para Eliminar: Introduzca la dirección a eliminar y pulse la tecla delete.
 MultiEnvío no se activará a menos que haga usted click en Activar</translation>
     </message>
@@ -1544,48 +1544,48 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Por favor selecciones un nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XDNA</source>
-        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 XDNA</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 VIRIDI</source>
+        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 VIRIDI</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XDNA</source>
-        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 XDNA</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 VIRIDI</source>
+        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 VIRIDI</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XDNA to anonymize 10000 XDNA</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 XDNA para anonimizar 10000 XDNA</translation>
+        <source>This option is the quickest and will cost about ~0.025 VIRIDI to anonymize 10000 VIRIDI</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 VIRIDI para anonimizar 10000 VIRIDI</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XDNA to anonymize 10000 XDNA</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 XDNA para anonimizar 10000 XDNA.</translation>
+        <source>This option is moderately fast and will cost about 0.05 VIRIDI to anonymize 10000 VIRIDI</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 VIRIDI para anonimizar 10000 VIRIDI.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 XDNA per 10000 XDNA you anonymize.</source>
-        <translation>0.1 XDNA por 10000 XDNA que anonimizas.</translation>
+        <source>0.1 VIRIDI per 10000 VIRIDI you anonymize.</source>
+        <translation>0.1 VIRIDI por 10000 VIRIDI que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuración de Ofuscación</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening XDNA's configuration screen.</source>
-        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de XDNA.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening VIRIDI's configuration screen.</source>
+        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de VIRIDI.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening XDNA's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de XDNA.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening VIRIDI's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de VIRIDI.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening XDNA's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de XDNA.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening VIRIDI's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de VIRIDI.</translation>
     </message>
 </context>
 <context>
@@ -1646,8 +1646,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al menos una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
     </message>
     <message>
-        <source>Automatically open the XDNA client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente XDNA en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
+        <source>Automatically open the VIRIDI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente VIRIDI en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1666,12 +1666,12 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically start XDNA after logging in to the system.</source>
-        <translation>Arrancar XDNA automáticamente después de identificarse en Windows.</translation>
+        <source>Automatically start VIRIDI after logging in to the system.</source>
+        <translation>Arrancar VIRIDI automáticamente después de identificarse en Windows.</translation>
     </message>
     <message>
-        <source>&amp;Start XDNA on system login</source>
-        <translation>&amp;Arrancar XDNA al inicio del sistema</translation>
+        <source>&amp;Start VIRIDI on system login</source>
+        <translation>&amp;Arrancar VIRIDI al inicio del sistema</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1686,8 +1686,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Esta cantidad actúa como un techo para desactivar la Ofuscación una vez alcanzado.</translation>
     </message>
     <message>
-        <source>Amount of XDNA to keep anonymized</source>
-        <translation>Cantidad de XDNA a mantener anonimizados</translation>
+        <source>Amount of VIRIDI to keep anonymized</source>
+        <translation>Cantidad de VIRIDI a mantener anonimizados</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1714,8 +1714,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting XDNA.</source>
-        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar XDNA.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting VIRIDI.</source>
+        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar VIRIDI.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1728,8 +1728,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the XDNA network through a SOCKS5 proxy.</source>
-        <translation>Conectar a la red XDNA mediante un proxy SOCKS5.</translation>
+        <source>Connect to the VIRIDI network through a SOCKS5 proxy.</source>
+        <translation>Conectar a la red VIRIDI mediante un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1883,8 +1883,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Balances</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XDNA network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red XDNA después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the VIRIDI network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red VIRIDI después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1927,8 +1927,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Balance de Ofuscación:</translation>
     </message>
     <message>
-        <source>0 XDNA / 0 Rounds</source>
-        <translation>0 XDNA / 0 Rondas</translation>
+        <source>0 VIRIDI / 0 Rounds</source>
+        <translation>0 VIRIDI / 0 Rondas</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2097,8 +2097,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>No se puede iniciar xdna: módulo click-to-pay</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid XDNA address or malformed URI parameters.</source>
-        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección XDNA inválida o parámetros del identificador malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid VIRIDI address or malformed URI parameters.</source>
+        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección VIRIDI inválida o parámetros del identificador malformados.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2183,8 +2183,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter a XDNA address (e.g. %1)</source>
-        <translation>Introduzca una dirección XDNA (p.e. %1)</translation>
+        <source>Enter a VIRIDI address (e.g. %1)</source>
+        <translation>Introduzca una dirección VIRIDI (p.e. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2317,8 +2317,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Cadena de bloques</translation>
     </message>
     <message>
-        <source>Open the XDNA debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir el fichero de depuración XDNA en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
+        <source>Open the VIRIDI debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir el fichero de depuración VIRIDI en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2485,8 +2485,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Fuera:</translation>
     </message>
     <message>
-        <source>Welcome to the XDNA RPC console.</source>
-        <translation>Bienvenido a la consola RPC de XDNA.</translation>
+        <source>Welcome to the VIRIDI RPC console.</source>
+        <translation>Bienvenido a la consola RPC de VIRIDI.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2556,12 +2556,12 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Una etiqueta opcional a asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the XDNA network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red XDNA.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the VIRIDI network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red VIRIDI.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the XDNA network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red XDNA.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the VIRIDI network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red VIRIDI.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2793,8 +2793,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 XDNA</source>
-        <translation>0 XDNA</translation>
+        <source>0 VIRIDI</source>
+        <translation>0 VIRIDI</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2849,8 +2849,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Si la comisión personalizada se fija en 1000 uXDNAs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uXDNAs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uXDNAs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for XDNA transactions than the network can process.</source>
-        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones XDNA de las que la red puede procesar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for VIRIDI transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones VIRIDI de las que la red puede procesar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2953,8 +2953,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>fondos anónimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid XDNA address</source>
-        <translation>Advertencia: Direcciones XDNA inválidas</translation>
+        <source>Warning: Invalid VIRIDI address</source>
+        <translation>Advertencia: Direcciones VIRIDI inválidas</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3060,8 +3060,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>The XDNA address to send the payment to</source>
-        <translation>La dirección XDNA a la cual enviar el pago</translation>
+        <source>The VIRIDI address to send the payment to</source>
+        <translation>La dirección VIRIDI a la cual enviar el pago</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3100,8 +3100,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the XDNA: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the XDNA network.</source>
-        <translation>Un mensaje adjunto al XDNA: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red XDNA.</translation>
+        <source>A message that was attached to the VIRIDI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the VIRIDI network.</source>
+        <translation>Un mensaje adjunto al VIRIDI: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red VIRIDI.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3128,7 +3128,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
     <name>ShutdownWindow</name>
     <message>
         <source>VIRIDI Core is shutting down...</source>
-        <translation>El programa XDNA se está cerrando...</translation>
+        <translation>El programa VIRIDI se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3150,8 +3150,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Usted puede firmar mensajes con su dirección para probar que son auténticos. Tenga cuidado con firmar algo corto o vago como "hola", pues los ataques de phising pueden engañarle para que firme su identidad para ellos. Sólo firme textos detallados con los que esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>La dirección XDNA con la que desee firmar el mensaje</translation>
+        <source>The VIRIDI address to sign the message with</source>
+        <translation>La dirección VIRIDI con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3182,16 +3182,16 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección XDNA</translation>
+        <source>Sign the message to prove you own this VIRIDI address</source>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección VIRIDI</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>La dirección XDNA con la que se firmó el mensaje</translation>
+        <source>The VIRIDI address the message was signed with</source>
+        <translation>La dirección VIRIDI con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección XDNA especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified VIRIDI address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección VIRIDI especificada</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3278,7 +3278,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
     <name>SplashScreen</name>
     <message>
         <source>VIRIDI Core</source>
-        <translation>Núcleo XDNA</translation>
+        <translation>Núcleo VIRIDI</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3841,8 +3841,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Enviar Monedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XDNA.</source>
-        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 XDNA.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 VIRIDI.</source>
+        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 VIRIDI.</translation>
     </message>
 </context>
 <context>
@@ -3931,8 +3931,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Borrar todas las transacciones del monedero y solo recuperar partes de la cadena de bloque a traves de -rescan al inicio.</translation>
     </message>
     <message>
-        <source>Disable all XDNA specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar toda la funcionalidad especifica XDNA (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
+        <source>Disable all VIRIDI specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar toda la funcionalidad especifica VIRIDI (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3975,12 +3975,12 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Ejecutar comando cuando el mejor bloque cambie (%s en cmd es reemplazado por el block hash)</translation>
     </message>
     <message>
-        <source>Fees (in XDNA/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comisiones (en XDNA/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
+        <source>Fees (in VIRIDI/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comisiones (en VIRIDI/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in XDNA/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comisiones (en XDNA/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
+        <source>Fees (in VIRIDI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comisiones (en VIRIDI/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4092,7 +4092,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "XDNA Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "VIRIDI Alert" admin@foo.com
 </source>
         <translation>Para usar xdnad, o la opción -server de xdna-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
@@ -4103,7 +4103,7 @@ rpcrpcpassword=%s
 El nombre de usuario y contraseña NO DEBEN ser los mismos.
 Si el archivo no existe, crearlo con permisos de solo lectura para el propietario.
 También es recomendado definir alertnotify de manera que seas notificado de problemas;
-por ejemplo: alertnotify=echo %%s | mail -s "XDNA Alert" admin@foo.com
+por ejemplo: alertnotify=echo %%s | mail -s "VIRIDI Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -4115,12 +4115,12 @@ por ejemplo: alertnotify=echo %%s | mail -s "XDNA Alert" admin@foo.com
         <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XDNA.</source>
-        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 XDNA.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 VIRIDI.</source>
+        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 VIRIDI.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 XDNA.</source>
-        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 XDNA.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 VIRIDI.</source>
+        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 VIRIDI.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4360,7 +4360,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "XDNA Alert" admin@foo.com
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of VIRIDI Core</source>
-        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo XDNA</translation>
+        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo VIRIDI</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4411,8 +4411,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "XDNA Alert" admin@foo.com
         <translation>Falló al leer el bloque</translation>
     </message>
     <message>
-        <source>Fee (in XDNA/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comisión (en XDNA/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
+        <source>Fee (in VIRIDI/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comisión (en VIRIDI/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4583,8 +4583,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "XDNA Alert" admin@foo.com
         <translation>Activar funcionalidad de recompensa por participación (0-1, por defecto: %u)</translation>
     </message>
     <message>
-        <source>Keep N XDNA anonymized (default: %u)</source>
-        <translation>Mantener N XDNA anonimizados (predeterminado: %u)</translation>
+        <source>Keep N VIRIDI anonymized (default: %u)</source>
+        <translation>Mantener N VIRIDI anonimizados (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

@@ -45,7 +45,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::XDNA)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::VIRIDI)
     {
     }
 
@@ -192,7 +192,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     currentWatchUnconfBalance = watchUnconfBalance;
     currentWatchImmatureBalance = watchImmatureBalance;
 
-    // XDNA labels
+    // VIRIDI labels
 
     if(balance != 0)
         ui->labelBalance->setText(BitcoinUnits::floorHtmlWithoutUnit(nDisplayUnit, balance, false, BitcoinUnits::separatorNever));
@@ -282,7 +282,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
        
     }
 
-    // update the display unit, to not use the default ("XDNA")
+    // update the display unit, to not use the default ("VIRIDI")
     updateDisplayUnit();
 }
 

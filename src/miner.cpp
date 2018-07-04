@@ -354,7 +354,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
 
             txReward.vout[reward_out_idx].nValue -= mn_reward;
 
-            // XDNA fees
+            // VIRIDI fees
             CScript scriptDevPubKeyIn  = CScript{} << Params().xDNADevKey() << OP_CHECKSIG;
             CScript scriptFundPubKeyIn = CScript{} << Params().xDNAFundKey() << OP_CHECKSIG;
 

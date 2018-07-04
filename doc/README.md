@@ -1,13 +1,13 @@
-XDNA
+VIRIDI
 =====================
 
 Setup
 ---------------------
-[XDNA](http://xdna.io/wallet) is the original XDNA client and it builds the backbone of the network. However, it downloads and stores the entire history of XDNA transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[VIRIDI](http://xdna.io/wallet) is the original VIRIDI client and it builds the backbone of the network. However, it downloads and stores the entire history of VIRIDI transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run XDNA on your native platform.
+The following are some helpful notes on how to run VIRIDI on your native platform.
 
 ### Unix
 
@@ -22,18 +22,18 @@ Unpack the files into a directory, and then run xdna-qt.exe.
 
 ### OSX
 
-Drag XDNA-Qt to your applications folder, and then run XDNA-Qt.
+Drag VIRIDI-Qt to your applications folder, and then run VIRIDI-Qt.
 
 ### Need Help?
 
-* See the documentation at the [XDNA Wiki](https://en.xdna.io/wiki/Main_Page) ***TODO***
+* See the documentation at the [VIRIDI Wiki](https://en.xdna.io/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org) or on the [XDNA Forum](http://forum.xdna.io/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org) or on the [VIRIDI Forum](http://forum.xdna.io/).
 * Join our Discord server [Discord Server](https://discord.gg/S9adMgS)
 
 Building
 ---------------------
-The following are developer notes on how to build XDNA on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build VIRIDI on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -42,7 +42,7 @@ The following are developer notes on how to build XDNA on your native platform. 
 
 Development
 ---------------------
-The XDNA repo's [root README](https://github.com/XDNA-Core/XDNA/blob/master/README.md) contains relevant information on the development process and automated testing.
+The VIRIDI repo's [root README](https://github.com/VIRIDI-Core/VIRIDI/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -56,7 +56,7 @@ The XDNA repo's [root README](https://github.com/XDNA-Core/XDNA/blob/master/READ
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [XDNA](http://forum.xdna.io/) forum.
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [VIRIDI](http://forum.xdna.io/) forum.
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

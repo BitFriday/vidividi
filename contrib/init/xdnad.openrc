@@ -16,8 +16,8 @@ BITCOIND_USER=${BITCOIND_USER:-xdna}
 BITCOIND_GROUP=${BITCOIND_GROUP:-xdna}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/xdnad}
 
-name="XDNA Daemon"
-description="XDNA crypto-currency p2p network daemon"
+name="VIRIDI Daemon"
+description="VIRIDI crypto-currency p2p network daemon"
 
 command="/usr/bin/xdnad"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"XDNA Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"VIRIDI Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

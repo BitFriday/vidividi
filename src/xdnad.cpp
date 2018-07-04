@@ -25,8 +25,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called XDNA (http://www.xdna.io),
- * which enables instant payments to anyone, anywhere in the world. XDNA uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called VIRIDI (http://www.xdna.io),
+ * which enables instant payments to anyone, anywhere in the world. VIRIDI uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -122,7 +122,7 @@ bool AppInit(int argc, char* argv[])
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon) {
-            fprintf(stdout, "XDNA server starting\n");
+            fprintf(stdout, "VIRIDI server starting\n");
 
             // Daemonize
             pid_t pid = fork();

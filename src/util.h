@@ -30,7 +30,7 @@
 #include <boost/filesystem/path.hpp>
 #include <boost/thread/exceptions.hpp>
 
-//XDNA only features
+//VIRIDI only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;
