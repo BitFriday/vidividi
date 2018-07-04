@@ -4993,7 +4993,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</source>
     </message>
 </context>
 <context>
-    <name>xdna-core</name>
+    <name>viridi-core</name>
     <message>
         <location filename="../xdnastrings.cpp" line="+12"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>

@@ -2471,7 +2471,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>viridi-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>

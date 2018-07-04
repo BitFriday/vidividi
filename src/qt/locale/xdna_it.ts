@@ -1272,7 +1272,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>viridi-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

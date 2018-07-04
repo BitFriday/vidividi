@@ -2024,7 +2024,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations </translation>
     </message>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>viridi-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

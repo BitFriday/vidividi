@@ -2482,7 +2482,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>viridi-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>
