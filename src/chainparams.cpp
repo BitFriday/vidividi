@@ -168,13 +168,12 @@ public:
         nAntiInstamineTime = 720; // 720 blocks with 1 reward for instamine prevention
         nMaturity = 60;
         nMasternodeCountDrift = 3;
-        //nMaxMoneyOut = 367452000 * COIN;
-        nMaxMoneyOut = 167452000 * COIN;
+        nMaxMoneyOut = 367452000 * COIN;
 
         nStartMasternodePaymentsBlock = 7001;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 10;//1440000;
+        nLastPOWBlock = 1440000;
         nModifierUpdateBlock = std::numeric_limits<decltype(nModifierUpdateBlock)>::max();
 
         /**
