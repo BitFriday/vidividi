@@ -20,13 +20,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "XDNA"
-            VALUE "FileDescription",    "XDNA Core (OSS GUI client for XDNA)"
+            VALUE "FileDescription",    "VIRIDI Core (OSS GUI client for XDNA)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "xdna-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "xdna-qt.exe"
-            VALUE "ProductName",        "XDNA Core"
+            VALUE "ProductName",        "VIRIDI Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

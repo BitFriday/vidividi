@@ -1242,8 +1242,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart XDNA Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o XDNA Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart VIRIDI Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o VIRIDI Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

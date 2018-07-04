@@ -594,8 +594,8 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Send coins to a XDNA address</source>
@@ -614,12 +614,12 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
-        <translation>&amp;О XDNA Core</translation>
+        <source>&amp;About VIRIDI Core</source>
+        <translation>&amp;О VIRIDI Core</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
-        <translation>Показать информацию о XDNA Core</translation>
+        <source>Show information about VIRIDI Core</source>
+        <translation>Показать информацию о VIRIDI Core</translation>
     </message>
     <message>
         <source>Modify configuration options for XDNA</source>
@@ -674,12 +674,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the XDNA Core help message to get a list with possible XDNA command-line options</source>
+        <source>Show the VIRIDI Core help message to get a list with possible XDNA command-line options</source>
         <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям коммандной строки XDNA</translation>
     </message>
     <message>
-        <source>XDNA Core client</source>
-        <translation>Клиент XDNA Core</translation>
+        <source>VIRIDI Core client</source>
+        <translation>Клиент VIRIDI Core</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to XDNA network</source>
@@ -1176,16 +1176,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About XDNA Core</source>
-        <translation>О XDNA Core</translation>
+        <source>About VIRIDI Core</source>
+        <translation>О VIRIDI Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1231,16 +1231,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to XDNA Core.</source>
-        <translation>Добро пожаловать в XDNA Core.</translation>
+        <source>Welcome to VIRIDI Core.</source>
+        <translation>Добро пожаловать в VIRIDI Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where XDNA Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные XDNA Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where VIRIDI Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные VIRIDI Core.</translation>
     </message>
     <message>
-        <source>XDNA Core will download and store a copy of the XDNA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>XDNA Core загрузит и сохранит копию цепочки блоков XDNA. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться файл кошелька.</translation>
+        <source>VIRIDI Core will download and store a copy of the XDNA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>VIRIDI Core загрузит и сохранит копию цепочки блоков XDNA. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться файл кошелька.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1251,8 +1251,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2815,8 +2815,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>XDNA Core is shutting down...</source>
-        <translation>XDNA Core выключается...</translation>
+        <source>VIRIDI Core is shutting down...</source>
+        <translation>VIRIDI Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2905,8 +2905,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2925,8 +2925,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>The XDNA Core developers</source>
-        <translation>Разработчики XDNA Core</translation>
+        <source>The VIRIDI Core developers</source>
+        <translation>Разработчики VIRIDI Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3215,8 +3215,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The XDNA Core Developers</source>
-        <translation>Copyright (C) 2017-%i Разработчики XDNA Core</translation>
+        <source>Copyright (C) 2017-%i The VIRIDI Core Developers</source>
+        <translation>Copyright (C) 2017-%i Разработчики VIRIDI Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

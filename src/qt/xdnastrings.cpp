@@ -30,7 +30,7 @@ QT_TRANSLATE_NOOP("xdna-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("xdna-core", ""
-"Cannot obtain a lock on data directory %s. XDNA Core is probably already "
+"Cannot obtain a lock on data directory %s. VIRIDI Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("xdna-core", ""
 "Continuously rate-limit free transactions to <n>*1000 bytes per minute "
@@ -163,7 +163,7 @@ QT_TRANSLATE_NOOP("xdna-core", ""
 "It is also recommended to set alertnotify so you are notified of problems;\n"
 "for example: alertnotify=echo %%s | mail -s \"XDNA Alert\" admin@foo.com\n"),
 QT_TRANSLATE_NOOP("xdna-core", ""
-"Unable to bind to %s on this computer. XDNA Core is probably already running."),
+"Unable to bind to %s on this computer. VIRIDI Core is probably already running."),
 QT_TRANSLATE_NOOP("xdna-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("xdna-core", ""
@@ -183,7 +183,7 @@ QT_TRANSLATE_NOOP("xdna-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("xdna-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong XDNA Core will not work properly."),
+"your clock is wrong VIRIDI Core will not work properly."),
 QT_TRANSLATE_NOOP("xdna-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -238,7 +238,7 @@ QT_TRANSLATE_NOOP("xdna-core", "Connection options:"),
 QT_TRANSLATE_NOOP("xdna-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
 QT_TRANSLATE_NOOP("xdna-core", "Copyright (C) 2014-%i The Dash Core Developers"),
 QT_TRANSLATE_NOOP("xdna-core", "Copyright (C) 2015-%i The PIVX Core Developers"),
-QT_TRANSLATE_NOOP("xdna-core", "Copyright (C) 2015-%i The XDNA Core Developers"),
+QT_TRANSLATE_NOOP("xdna-core", "Copyright (C) 2015-%i The VIRIDI Core Developers"),
 QT_TRANSLATE_NOOP("xdna-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("xdna-core", "Could not parse -rpcbind value %s as network address"),
 QT_TRANSLATE_NOOP("xdna-core", "Could not parse masternode.conf"),
@@ -265,7 +265,7 @@ QT_TRANSLATE_NOOP("xdna-core", "Error initializing wallet database environment %
 QT_TRANSLATE_NOOP("xdna-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("xdna-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("xdna-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("xdna-core", "Error loading wallet.dat: Wallet requires newer version of XDNA Core"),
+QT_TRANSLATE_NOOP("xdna-core", "Error loading wallet.dat: Wallet requires newer version of VIRIDI Core"),
 QT_TRANSLATE_NOOP("xdna-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("xdna-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("xdna-core", "Error recovering public key."),
@@ -293,7 +293,7 @@ QT_TRANSLATE_NOOP("xdna-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("xdna-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("xdna-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("xdna-core", "Information"),
-QT_TRANSLATE_NOOP("xdna-core", "Initialization sanity check failed. XDNA Core is shutting down."),
+QT_TRANSLATE_NOOP("xdna-core", "Initialization sanity check failed. VIRIDI Core is shutting down."),
 QT_TRANSLATE_NOOP("xdna-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("xdna-core", "Insufficient funds."),
 QT_TRANSLATE_NOOP("xdna-core", "Invalid -onion address or hostname: '%s'"),
@@ -434,7 +434,7 @@ QT_TRANSLATE_NOOP("xdna-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("xdna-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("xdna-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("xdna-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("xdna-core", "Wallet needed to be rewritten: restart XDNA Core to complete"),
+QT_TRANSLATE_NOOP("xdna-core", "Wallet needed to be rewritten: restart VIRIDI Core to complete"),
 QT_TRANSLATE_NOOP("xdna-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("xdna-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("xdna-core", "Warning"),

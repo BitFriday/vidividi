@@ -598,7 +598,7 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA Kern</translation>
     </message>
     <message>
@@ -618,11 +618,11 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
+        <source>&amp;About VIRIDI Core</source>
         <translation>&amp;Over XDNA Kern</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
+        <source>Show information about VIRIDI Core</source>
         <translation>Toon informatie over XDNA Kern</translation>
     </message>
     <message>
@@ -678,8 +678,8 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>XDNA Core client</source>
-        <translation>XDNA Core client</translation>
+        <source>VIRIDI Core client</source>
+        <translation>VIRIDI Core client</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to XDNA network</source>
@@ -1040,7 +1040,7 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA Kern</translation>
     </message>
     <message>
@@ -1048,8 +1048,8 @@ MultiSend: %1</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About XDNA Core</source>
-        <translation>Over XDNA Core</translation>
+        <source>About VIRIDI Core</source>
+        <translation>Over VIRIDI Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1079,15 +1079,15 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to XDNA Core.</source>
-        <translation>Welkom bij XDNA Core</translation>
+        <source>Welcome to VIRIDI Core.</source>
+        <translation>Welkom bij VIRIDI Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard datafolder </translation>
     </message>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA Kern</translation>
     </message>
     <message>
@@ -2024,8 +2024,8 @@ MultiSend: %1</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>XDNA Core is shutting down...</source>
-        <translation>XDNA Core is aan het afsluiten...</translation>
+        <source>VIRIDI Core is shutting down...</source>
+        <translation>VIRIDI Core is aan het afsluiten...</translation>
     </message>
     </context>
 <context>
@@ -2134,7 +2134,7 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA Kern</translation>
     </message>
     <message>
@@ -2150,8 +2150,8 @@ MultiSend: %1</translation>
         <translation>De Dash Core ontwikkelaars</translation>
     </message>
     <message>
-        <source>The XDNA Core developers</source>
-        <translation>De XDNA Core ontwikkelaars</translation>
+        <source>The VIRIDI Core developers</source>
+        <translation>De VIRIDI Core ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2508,8 +2508,8 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2015-%i The PIVX Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The XDNA Core Developers</source>
-        <translation>Copyright (C) 2017-%i The XDNA Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2017-%i The VIRIDI Core Developers</source>
+        <translation>Copyright (C) 2017-%i The VIRIDI Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Error</source>

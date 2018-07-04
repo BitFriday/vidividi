@@ -598,8 +598,8 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Send coins to a XDNA address</source>
@@ -618,12 +618,12 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
-        <translation>O XDNA Core</translation>
+        <source>&amp;About VIRIDI Core</source>
+        <translation>O VIRIDI Core</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
-        <translation>Zobraziť informácie o XDNA Core</translation>
+        <source>Show information about VIRIDI Core</source>
+        <translation>Zobraziť informácie o VIRIDI Core</translation>
     </message>
     <message>
         <source>Modify configuration options for XDNA</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the XDNA Core help message to get a list with possible XDNA command-line options</source>
-        <translation>Zobraziť pomocnú správu programu XDNA Core a získajte zoznam možností príkazového riadka XDNA</translation>
+        <source>Show the VIRIDI Core help message to get a list with possible XDNA command-line options</source>
+        <translation>Zobraziť pomocnú správu programu VIRIDI Core a získajte zoznam možností príkazového riadka XDNA</translation>
     </message>
     <message>
-        <source>XDNA Core client</source>
-        <translation>XDNA Core klient</translation>
+        <source>VIRIDI Core client</source>
+        <translation>VIRIDI Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -908,15 +908,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1164,8 +1164,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     </context>
 <context>

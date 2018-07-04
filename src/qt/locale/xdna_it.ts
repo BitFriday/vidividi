@@ -590,8 +590,8 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Send coins to a XDNA address</source>
@@ -610,12 +610,12 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
-        <translation>&amp;Informazioni XDNA Core</translation>
+        <source>&amp;About VIRIDI Core</source>
+        <translation>&amp;Informazioni VIRIDI Core</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
-        <translation>Visualizza informazioni su XDNA Core</translation>
+        <source>Show information about VIRIDI Core</source>
+        <translation>Visualizza informazioni su VIRIDI Core</translation>
     </message>
     <message>
         <source>Modify configuration options for XDNA</source>
@@ -646,8 +646,8 @@
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the XDNA Core help message to get a list with possible XDNA command-line options</source>
-        <translation>Mostra il messaggio di aiuto XDNA Core per ottenere un elenco con le possibili opzioni di riga di comando XDNA</translation>
+        <source>Show the VIRIDI Core help message to get a list with possible XDNA command-line options</source>
+        <translation>Mostra il messaggio di aiuto VIRIDI Core per ottenere un elenco con le possibili opzioni di riga di comando XDNA</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,8 +892,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -919,8 +919,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1176,8 +1176,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     </context>
 <context>

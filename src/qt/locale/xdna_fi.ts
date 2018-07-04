@@ -591,7 +591,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA Ydin</translation>
     </message>
     <message>
@@ -611,11 +611,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
-        <translation>XDNA Core &amp;ytimestä</translation>
+        <source>&amp;About VIRIDI Core</source>
+        <translation>VIRIDI Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
+        <source>Show information about VIRIDI Core</source>
         <translation>Näytä tietoja XDNA Ytimestä</translation>
     </message>
     <message>
@@ -671,11 +671,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the XDNA Core help message to get a list with possible XDNA command-line options</source>
+        <source>Show the VIRIDI Core help message to get a list with possible XDNA command-line options</source>
         <translation>Näytä XDNA Ydin apuviesti saadaksesi lista mahdollisista XDNA komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>XDNA Core client</source>
+        <source>VIRIDI Core client</source>
         <translation>XDNA Ydin asiakasohjelma</translation>
     </message>
     <message>
@@ -934,7 +934,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA Ydin</translation>
     </message>
     <message>
@@ -953,11 +953,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to XDNA Core.</source>
+        <source>Welcome to VIRIDI Core.</source>
         <translation>Tervetuloa XDNA Ytimeen.</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA Ydin</translation>
     </message>
     <message>
@@ -2009,7 +2009,7 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>XDNA Core is shutting down...</source>
+        <source>VIRIDI Core is shutting down...</source>
         <translation>XDNA core sammuu...</translation>
     </message>
     <message>
@@ -2151,7 +2151,7 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA Ydin</translation>
     </message>
     <message>
@@ -2167,7 +2167,7 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The XDNA Core developers</source>
+        <source>The VIRIDI Core developers</source>
         <translation>XDNA core kehittäjät</translation>
     </message>
     <message>
@@ -2521,7 +2521,7 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of XDNA Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of VIRIDI Core</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version XDNA Coresta</translation>
     </message>
     <message>

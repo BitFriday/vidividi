@@ -598,7 +598,7 @@
         <translation>标签工具栏</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA 核心</translation>
     </message>
     <message>
@@ -618,11 +618,11 @@
         <translation>浏览主节点</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
+        <source>&amp;About VIRIDI Core</source>
         <translation>&amp;关于XDNA核心</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
+        <source>Show information about VIRIDI Core</source>
         <translation>显示XDNA核心的相关信息</translation>
     </message>
     <message>
@@ -678,11 +678,11 @@
         <translation>区块浏览窗口</translation>
     </message>
     <message>
-        <source>Show the XDNA Core help message to get a list with possible XDNA command-line options</source>
+        <source>Show the VIRIDI Core help message to get a list with possible XDNA command-line options</source>
         <translation>显示XDNA Core帮助信息以获取可能的XDNA命令行选项的列表</translation>
     </message>
     <message>
-        <source>XDNA Core client</source>
+        <source>VIRIDI Core client</source>
         <translation>XDNA核心客户端</translation>
     </message>
     <message>
@@ -812,14 +812,14 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA 核心</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA 核心</translation>
     </message>
     <message>
@@ -1435,7 +1435,7 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA 核心</translation>
     </message>
     </context>
@@ -1524,7 +1524,7 @@ Address: %4
         <translation>在收到相关警报时执行命令，或者看到一个很长的分叉（cmd中的%s被消息替换）</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong XDNA Core will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong VIRIDI Core will not work properly.</source>
         <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，XDNA Core将无法正常工作。</translation>
     </message>
     <message>

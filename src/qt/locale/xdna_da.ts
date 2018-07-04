@@ -598,7 +598,7 @@
         <translation>Værktøjslinier</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA kerne</translation>
     </message>
     <message>
@@ -618,11 +618,11 @@
         <translation>Vis masternoder</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
+        <source>&amp;About VIRIDI Core</source>
         <translation>&amp;Om XDNA kerne</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
+        <source>Show information about VIRIDI Core</source>
         <translation>Vis information om XDNA kerne</translation>
     </message>
     <message>
@@ -678,11 +678,11 @@
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>
-        <source>Show the XDNA Core help message to get a list with possible XDNA command-line options</source>
+        <source>Show the VIRIDI Core help message to get a list with possible XDNA command-line options</source>
         <translation>Vis hjelpetekster fra XDNA kernen for at få en liste med mulige XDNA kommandolinie-startparametre</translation>
     </message>
     <message>
-        <source>XDNA Core client</source>
+        <source>VIRIDI Core client</source>
         <translation>XDNA kerneklient</translation>
     </message>
     <message>
@@ -1160,7 +1160,7 @@ Adresse: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA kerne</translation>
     </message>
     <message>
@@ -1168,7 +1168,7 @@ Adresse: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About XDNA Core</source>
+        <source>About VIRIDI Core</source>
         <translation>om XDNA kerne</translation>
     </message>
     <message>
@@ -1215,15 +1215,15 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to XDNA Core.</source>
+        <source>Welcome to VIRIDI Core.</source>
         <translation>Velkommen til XDNA kerne</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where XDNA Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where VIRIDI Core will store its data.</source>
         <translation>Da det er første gang programmet startes, kan De vælge hvor XDNA kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>XDNA Core will download and store a copy of the XDNA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>VIRIDI Core will download and store a copy of the XDNA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>XDNA kernen vil nu hente og gemme en kopi af XDNA blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
@@ -1235,7 +1235,7 @@ Adresse: %4
         <translation>Anvend en mappe valgt af brugeren</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA kerne</translation>
     </message>
     <message>
@@ -3093,7 +3093,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>XDNA Core is shutting down...</source>
+        <source>VIRIDI Core is shutting down...</source>
         <translation>XDNA kernen lukker ned</translation>
     </message>
     <message>
@@ -3243,7 +3243,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA kerne</translation>
     </message>
     <message>
@@ -3259,7 +3259,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>DASH "core" udviklerne</translation>
     </message>
     <message>
-        <source>The XDNA Core developers</source>
+        <source>The VIRIDI Core developers</source>
         <translation>XDNA "core" udviklerne</translation>
     </message>
     <message>
@@ -3861,7 +3861,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Forbind til den opgivne adresse og lyt efter JSON-.RPC forbindelser. Brug [host]:port notation for IPv6. Der kan indsættes flere linier (standard: Forbind til alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. XDNA Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. VIRIDI Core is probably already running.</source>
         <translation>Kan ikke låse datamappen %s. XDNA core kører sandsynligvis allerede.</translation>
     </message>
     <message>
@@ -4058,7 +4058,7 @@ For eksempel: alertnotify=Echo %% | mail - s "XDNA ALARM!" e-mail@administrator.
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. XDNA Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. VIRIDI Core is probably already running.</source>
         <translation>Det var ikke muligt at forbinde %s på denne computer. XDNA kører sandsynligvis allerede.</translation>
     </message>
     <message>
@@ -4086,7 +4086,7 @@ For eksempel: alertnotify=Echo %% | mail - s "XDNA ALARM!" e-mail@administrator.
         <translation>Advarsel! -paytxfee er sat meget højt. Det er dette gebyr De kommer til at betale for transaktionen, hvis De gennemfører. </translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong XDNA Core will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong VIRIDI Core will not work properly.</source>
         <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil XDNA core ikke fungere ordentligt.</translation>
     </message>
     <message>
@@ -4238,8 +4238,8 @@ For eksempel: alertnotify=Echo %% | mail - s "XDNA ALARM!" e-mail@administrator.
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The XDNA Core Developers</source>
-        <translation>Copyright (C) 2017-%i The XDNA Core Developers</translation>
+        <source>Copyright (C) 2017-%i The VIRIDI Core Developers</source>
+        <translation>Copyright (C) 2017-%i The VIRIDI Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4310,7 +4310,7 @@ For eksempel: alertnotify=Echo %% | mail - s "XDNA ALARM!" e-mail@administrator.
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen er beskadiget</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of XDNA Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of VIRIDI Core</source>
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af XDNA core</translation>
     </message>
     <message>
@@ -4422,7 +4422,7 @@ For eksempel: alertnotify=Echo %% | mail - s "XDNA ALARM!" e-mail@administrator.
         <translation>Info:</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. XDNA Core is shutting down.</source>
+        <source>Initialization sanity check failed. VIRIDI Core is shutting down.</source>
         <translation>Initiering af sanitetskontrollen fejlede. XDNA core lukker ned. </translation>
     </message>
     <message>
@@ -4998,7 +4998,7 @@ For eksempel: alertnotify=Echo %% | mail - s "XDNA ALARM!" e-mail@administrator.
         <translation>Tegnebogen er låst</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart XDNA Core to complete</source>
+        <source>Wallet needed to be rewritten: restart VIRIDI Core to complete</source>
         <translation>Tegnebogen måtte genskrives. Genstart XDNA core for at gøre færdig</translation>
     </message>
     <message>

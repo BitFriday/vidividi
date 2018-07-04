@@ -583,7 +583,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA Kärna</translation>
     </message>
     <message>
@@ -603,11 +603,11 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
+        <source>&amp;About VIRIDI Core</source>
         <translation>Om XDNA Kärnan</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
+        <source>Show information about VIRIDI Core</source>
         <translation>Visa information om XDNA Kärnan</translation>
     </message>
     <message>
@@ -631,7 +631,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>XDNA Core client</source>
+        <source>VIRIDI Core client</source>
         <translation>XDNA kärn klient</translation>
     </message>
     <message>
@@ -841,14 +841,14 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA Kärna</translation>
     </message>
     <message>
@@ -1181,7 +1181,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
+        <source>VIRIDI Core</source>
         <translation>XDNA Kärna</translation>
     </message>
     </context>

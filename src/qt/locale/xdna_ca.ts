@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
-        <translation>&amp;Sobre XDNA Core</translation>
+        <source>&amp;About VIRIDI Core</source>
+        <translation>&amp;Sobre VIRIDI Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
-        <source>About XDNA Core</source>
-        <translation>Sobre XDNA Core</translation>
+        <source>About VIRIDI Core</source>
+        <translation>Sobre VIRIDI Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to XDNA Core.</source>
-        <translation>Benvingut a XDNA Core.</translation>
+        <source>Welcome to VIRIDI Core.</source>
+        <translation>Benvingut a VIRIDI Core.</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1132,8 +1132,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Version %1</source>

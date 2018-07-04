@@ -598,8 +598,8 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Send coins to a XDNA address</source>
@@ -618,12 +618,12 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
-        <translation>&amp;O XDNA Core</translation>
+        <source>&amp;About VIRIDI Core</source>
+        <translation>&amp;O VIRIDI Core</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
-        <translation>Zobraz informace o XDNA Core</translation>
+        <source>Show information about VIRIDI Core</source>
+        <translation>Zobraz informace o VIRIDI Core</translation>
     </message>
     <message>
         <source>Modify configuration options for XDNA</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the XDNA Core help message to get a list with possible XDNA command-line options</source>
-        <translation>Zobrazit XDNA Core pomocnou zpráv pro získání seznamu možných parametrů XDNA pro příkazy do příkazové řádky</translation>
+        <source>Show the VIRIDI Core help message to get a list with possible XDNA command-line options</source>
+        <translation>Zobrazit VIRIDI Core pomocnou zpráv pro získání seznamu možných parametrů XDNA pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>XDNA Core client</source>
-        <translation>XDNA Core klient</translation>
+        <source>VIRIDI Core client</source>
+        <translation>VIRIDI Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1116,12 +1116,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
-        <source>About XDNA Core</source>
-        <translation>O XDNA Core</translation>
+        <source>About VIRIDI Core</source>
+        <translation>O VIRIDI Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1155,16 +1155,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to XDNA Core.</source>
-        <translation>Vítejte v XDNA Core.</translation>
+        <source>Welcome to VIRIDI Core.</source>
+        <translation>Vítejte v VIRIDI Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where XDNA Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude XDNA Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where VIRIDI Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude VIRIDI Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>XDNA Core will download and store a copy of the XDNA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>XDNA Core stáhne a uloží kopii XDNA blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>VIRIDI Core will download and store a copy of the XDNA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>VIRIDI Core stáhne a uloží kopii XDNA blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1175,8 +1175,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2278,8 +2278,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     </context>
 <context>

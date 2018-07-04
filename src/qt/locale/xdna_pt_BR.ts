@@ -586,8 +586,8 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Send coins to a XDNA address</source>
@@ -606,12 +606,12 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
-        <translation>&amp;Sobre o XDNA Core</translation>
+        <source>&amp;About VIRIDI Core</source>
+        <translation>&amp;Sobre o VIRIDI Core</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
-        <translation>Mostra informação sobre o XDNA Core</translation>
+        <source>Show information about VIRIDI Core</source>
+        <translation>Mostra informação sobre o VIRIDI Core</translation>
     </message>
     <message>
         <source>Modify configuration options for XDNA</source>
@@ -666,11 +666,11 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the XDNA Core help message to get a list with possible XDNA command-line options</source>
-        <translation>Mostra a ajuda da XDNA Core para receber uma lista com possíveis opções de linha de comando XDNA</translation>
+        <source>Show the VIRIDI Core help message to get a list with possible XDNA command-line options</source>
+        <translation>Mostra a ajuda da VIRIDI Core para receber uma lista com possíveis opções de linha de comando XDNA</translation>
     </message>
     <message>
-        <source>XDNA Core client</source>
+        <source>VIRIDI Core client</source>
         <translation>Cliente Core XDNA</translation>
     </message>
     <message>
@@ -1141,16 +1141,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About XDNA Core</source>
-        <translation>Sobre o XDNA Core</translation>
+        <source>About VIRIDI Core</source>
+        <translation>Sobre o VIRIDI Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1184,16 +1184,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to XDNA Core.</source>
-        <translation>Bem-vindo ao XDNA Core.</translation>
+        <source>Welcome to VIRIDI Core.</source>
+        <translation>Bem-vindo ao VIRIDI Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where XDNA Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde XDNA Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where VIRIDI Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde VIRIDI Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>XDNA Core will download and store a copy of the XDNA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>XDNA Core vai baixar e armazenar uma cópia da blockchain XDNA. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>VIRIDI Core will download and store a copy of the XDNA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>VIRIDI Core vai baixar e armazenar uma cópia da blockchain XDNA. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1204,8 +1204,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2764,8 +2764,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>XDNA Core is shutting down...</source>
-        <translation>XDNA Core está desligando...</translation>
+        <source>VIRIDI Core is shutting down...</source>
+        <translation>VIRIDI Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2906,8 +2906,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>VIRIDI Core</source>
+        <translation>VIRIDI Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2922,8 +2922,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The XDNA Core developers</source>
-        <translation>Os desenvolvedores do XDNA Core</translation>
+        <source>The VIRIDI Core developers</source>
+        <translation>Os desenvolvedores do VIRIDI Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3520,7 +3520,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong XDNA Core will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong VIRIDI Core will not work properly.</source>
         <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core XDNA não vai funcionar corretamente.</translation>
     </message>
     <message>
@@ -3604,8 +3604,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The XDNA Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2017-%i aos Desenvolvedores do XDNA Core</translation>
+        <source>Copyright (C) 2017-%i The VIRIDI Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2017-%i aos Desenvolvedores do VIRIDI Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3656,8 +3656,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of XDNA Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da XDNA Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of VIRIDI Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da VIRIDI Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4144,8 +4144,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart XDNA Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o XDNA Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart VIRIDI Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o VIRIDI Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>
