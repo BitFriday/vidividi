@@ -142,7 +142,7 @@ public:
 
         subsidySwitchPoints = {
             {0         ,   4 * COIN},
-            {2   * 1e12,   5 * COIN},
+            {987   * 1e12,   5 * COIN},
             {3   * 1e12,   7 * COIN},
             {5   * 1e12,   9 * COIN},
             {8   * 1e12,  11 * COIN},
