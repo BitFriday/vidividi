@@ -71,10 +71,10 @@ NumEntryGuards 8
 The directory can be different of course, but (both) port numbers should be equal to
 your xdnad's P2P listen port (1945 by default).
 ```
--externalip=X   You can tell viridi about its publicly reachable address using
+-externalip=X   You can tell xdna about its publicly reachable address using
                 this option, and this can be a .onion address. Given the above
                 configuration, you can find your onion address in
-                /var/lib/tor/viridi-service/hostname. Onion addresses are given
+                /var/lib/tor/xdna-service/hostname. Onion addresses are given
                 preference for your node to advertize itself with, for connections
                 coming from unroutable addresses (such as 127.0.0.1, where the
                 Tor proxy typically runs).

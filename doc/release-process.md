@@ -24,10 +24,10 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/viridi-project/gitian.sigs.git
-    git clone https://github.com/viridi-project/viridi-detached-sigs.git
+    git clone https://github.com/xdna-project/gitian.sigs.git
+    git clone https://github.com/xdna-project/xdna-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/viridi-project/viridi.git
+    git clone https://github.com/xdna-project/xdna.git
 
 ### VIRIDI maintainers/release engineers, suggestion for writing release notes
 
@@ -50,7 +50,7 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./viridi
+    pushd ./xdna
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -84,7 +84,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../viridi/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../xdna/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -92,7 +92,7 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url viridi=/path/to/viridi,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url xdna=/path/to/xdna,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
@@ -100,47 +100,47 @@ The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 ### Build and sign VIRIDI Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit viridi=v${VERSION} ../viridi/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../viridi/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/viridi-*.tar.gz build/out/src/viridi-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit xdna=v${VERSION} ../xdna/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/xdna-*.tar.gz build/out/src/xdna-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit viridi=v${VERSION} ../viridi/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../viridi/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/viridi-*-win-unsigned.tar.gz inputs/viridi-win-unsigned.tar.gz
-    mv build/out/viridi-*.zip build/out/viridi-*.exe ../
+    ./bin/gbuild --memory 3000 --commit xdna=v${VERSION} ../xdna/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/xdna-*-win-unsigned.tar.gz inputs/xdna-win-unsigned.tar.gz
+    mv build/out/xdna-*.zip build/out/xdna-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit viridi=v${VERSION} ../viridi/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../viridi/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/viridi-*-osx-unsigned.tar.gz inputs/viridi-osx-unsigned.tar.gz
-    mv build/out/viridi-*.tar.gz build/out/viridi-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit xdna=v${VERSION} ../xdna/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/xdna-*-osx-unsigned.tar.gz inputs/xdna-osx-unsigned.tar.gz
+    mv build/out/xdna-*.tar.gz build/out/xdna-*.dmg ../
 
-    ./bin/gbuild --memory 3000 --commit viridi=v${VERSION} ../viridi/contrib/gitian-descriptors/gitian-aarch64.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../viridi/contrib/gitian-descriptors/gitian-aarch64.yml
-    mv build/out/viridi-*.tar.gz build/out/src/viridi-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit xdna=v${VERSION} ../xdna/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-aarch64.yml
+    mv build/out/xdna-*.tar.gz build/out/src/xdna-*.tar.gz ../
     popd
 
 Build output expected:
 
-  1. source tarball (`viridi-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`viridi-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`viridi-${VERSION}-win[32|64]-setup-unsigned.exe`, `viridi-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`viridi-${VERSION}-osx-unsigned.dmg`, `viridi-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`xdna-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`xdna-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`xdna-${VERSION}-win[32|64]-setup-unsigned.exe`, `xdna-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`xdna-${VERSION}-osx-unsigned.dmg`, `xdna-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import viridi/contrib/gitian-keys/*.pgp
+    gpg --import xdna/contrib/gitian-keys/*.pgp
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../viridi/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../viridi/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../viridi/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../viridi/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../xdna/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../xdna/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../xdna/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../xdna/contrib/gitian-descriptors/gitian-aarch64.yml
     popd
 
 ### Next steps:
@@ -162,22 +162,22 @@ Codesigner only: Create Windows/OS X detached signatures:
 
 Codesigner only: Sign the osx binary:
 
-    transfer viridi-osx-unsigned.tar.gz to osx for signing
-    tar xf viridi-osx-unsigned.tar.gz
+    transfer xdna-osx-unsigned.tar.gz to osx for signing
+    tar xf xdna-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf viridi-win-unsigned.tar.gz
+    tar xf xdna-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/viridi-detached-sigs
+    cd ~/xdna-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -190,25 +190,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [viridi-detached-sigs](https://github.com/PIVX-Project/viridi-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [xdna-detached-sigs](https://github.com/PIVX-Project/xdna-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../viridi/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../viridi/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../viridi/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/viridi-osx-signed.dmg ../viridi-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../xdna/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../xdna/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/xdna-osx-signed.dmg ../xdna-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../viridi/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../viridi/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../viridi/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/viridi-*win64-setup.exe ../viridi-${VERSION}-win64-setup.exe
-    mv build/out/viridi-*win32-setup.exe ../viridi-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../xdna/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../xdna/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/xdna-*win64-setup.exe ../xdna-${VERSION}-win64-setup.exe
+    mv build/out/xdna-*win32-setup.exe ../xdna-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -230,23 +230,23 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-viridi-${VERSION}-aarch64-linux-gnu.tar.gz
-viridi-${VERSION}-arm-linux-gnueabihf.tar.gz
-viridi-${VERSION}-i686-pc-linux-gnu.tar.gz
-viridi-${VERSION}-x86_64-linux-gnu.tar.gz
-viridi-${VERSION}-osx64.tar.gz
-viridi-${VERSION}-osx.dmg
-viridi-${VERSION}.tar.gz
-viridi-${VERSION}-win32-setup.exe
-viridi-${VERSION}-win32.zip
-viridi-${VERSION}-win64-setup.exe
-viridi-${VERSION}-win64.zip
+xdna-${VERSION}-aarch64-linux-gnu.tar.gz
+xdna-${VERSION}-arm-linux-gnueabihf.tar.gz
+xdna-${VERSION}-i686-pc-linux-gnu.tar.gz
+xdna-${VERSION}-x86_64-linux-gnu.tar.gz
+xdna-${VERSION}-osx64.tar.gz
+xdna-${VERSION}-osx.dmg
+xdna-${VERSION}.tar.gz
+xdna-${VERSION}-win32-setup.exe
+xdna-${VERSION}-win32.zip
+xdna-${VERSION}-win64-setup.exe
+xdna-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
 in debugging can run gitian to generate the files for themselves. To avoid
 end-user confusion about which file to pick, as well as save storage
-space *do not upload these to the viridi.io server*.
+space *do not upload these to the xdna.io server*.
 
 - GPG-sign it, delete the unsigned file:
 ```
@@ -262,7 +262,7 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - bitcointalk announcement thread
 
-  - Optionally twitter, reddit /r/viridi, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/xdna, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 

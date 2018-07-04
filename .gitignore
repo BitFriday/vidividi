@@ -11,10 +11,10 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/viridi
+src/xdna
 src/xdnad
-src/viridi-cli
-src/viridi-tx
+src/xdna-cli
+src/xdna-tx
 src/test/test_xdna
 src/qt/test/test_xdna-qt
 src/bench/bench_xdna
@@ -43,8 +43,8 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
-src/config/viridi-config.h
-src/config/viridi-config.h.in
+src/config/xdna-config.h
+src/config/xdna-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -69,7 +69,7 @@ libconftest.dylib*
 *.o
 *.o-*
 *.patch
-.viridi
+.xdna
 *.a
 *.pb.cc
 *.pb.h
@@ -88,12 +88,12 @@ libconftest.dylib*
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-viridi-qt
+xdna-qt
 VIRIDI-Qt.app
 
 # Unit-tests
 Makefile.test
-viridi-qt_test
+xdna-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -132,13 +132,13 @@ share/BitcoindComparisonTool.jar
 
 libbitcoinconsensus.pc
 libxdnaconsensus.pc
-src/qt/viridi-qt.bash
+src/qt/xdna-qt.bash
 qa/pull-tester/tests-config.sh
 
 #development symlinks
-viridi-cli
+xdna-cli
 xdnad
-viridi-qt
+xdna-qt
 make
 
 #development local files

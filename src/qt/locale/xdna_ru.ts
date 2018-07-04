@@ -602,7 +602,7 @@
         <translation>Отправить монеты на VIRIDI адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and viridi: URIs)</source>
+        <source>Request payments (generates QR codes and xdna: URIs)</source>
         <translation>Запросить платежи (генерирует QR-код и VIRIDI: URI)</translation>
     </message>
     <message>
@@ -829,8 +829,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (viridi.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (viridi.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (xdna.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (xdna.conf).</translation>
     </message>
 </context>
 <context>
@@ -1711,9 +1711,9 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/viridi-project/viridi-project-translations</source>
+https://www.transifex.com/xdna-project/xdna-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/viridi-project/viridi-project-translations</translation>
+https://www.transifex.com/xdna-project/xdna-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2072,8 +2072,8 @@ https://www.transifex.com/viridi-project/viridi-project-translations</translatio
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start viridi: click-to-pay handler</source>
-        <translation>Не удалось запустить viridi: обработчик click-to-pay </translation>
+        <source>Cannot start xdna: click-to-pay handler</source>
+        <translation>Не удалось запустить xdna: обработчик click-to-pay </translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid VIRIDI address or malformed URI parameters.</source>
@@ -3177,7 +3177,7 @@ https://www.transifex.com/viridi-project/viridi-project-translations</translatio
     </message>
     </context>
 <context>
-    <name>viridi-core</name>
+    <name>xdna-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>

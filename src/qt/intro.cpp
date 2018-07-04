@@ -184,7 +184,7 @@ bool Intro::pickDataDirectory()
         settings.setValue("strDataDir", dataDir);
     }
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the viridi.conf file in the default data directory
+     * override -datadir in the xdna.conf file in the default data directory
      * (to be consistent with xdnad behavior)
      */
     if (dataDir != getDefaultDataDirectory())

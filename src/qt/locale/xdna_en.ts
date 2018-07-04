@@ -781,7 +781,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and viridi: URIs)</source>
+        <source>Request payments (generates QR codes and xdna: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1077,7 +1077,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+473"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (viridi.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (xdna.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2167,7 +2167,7 @@ Please check the address and try again.</source>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/viridi-project/viridi-project-translations</source>
+https://www.transifex.com/xdna-project/xdna-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2661,7 +2661,7 @@ https://www.transifex.com/viridi-project/viridi-project-translations</source>
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start viridi: click-to-pay handler</source>
+        <source>Cannot start xdna: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4993,7 +4993,7 @@ https://www.transifex.com/viridi-project/viridi-project-translations</source>
     </message>
 </context>
 <context>
-    <name>viridi-core</name>
+    <name>xdna-core</name>
     <message>
         <location filename="../xdnastrings.cpp" line="+12"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
@@ -5241,7 +5241,7 @@ https://www.transifex.com/viridi-project/viridi-project-translations</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use xdnad, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
+        <source>To use xdnad, or the -server option to xdna-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=xdnarpc

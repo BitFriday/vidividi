@@ -2079,7 +2079,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("viridi-scriptch");
+    RenameThread("xdna-scriptch");
     scriptcheckqueue.Thread();
 }
 

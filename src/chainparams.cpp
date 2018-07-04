@@ -206,7 +206,7 @@ public:
         assert(hashGenesisBlock == uint256("00000daac55f1df19bc509a13476511382d08aaaa80a328a2c1a575ae8eafbc4"));
         assert(genesis.hashMerkleRoot == uint256("89370975b13f97d8f9cfc373b0e9d5cc0e2e06b8dc283c76824e4df03ca2d60a"));
 
-        //vSeeds.push_back(CDNSSeedData("viridi.io", "seeds.seeder01.viridi.io"));     // Primary DNS Seeder
+        //vSeeds.push_back(CDNSSeedData("xdna.io", "seeds.seeder01.xdna.io"));     // Primary DNS Seeder
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 75);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 8);
@@ -303,7 +303,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("viridi.io", "seed01.viridi.io"));     // Primary DNS Seeder
+        //vSeeds.push_back(CDNSSeedData("xdna.io", "seed01.xdna.io"));     // Primary DNS Seeder
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 137); // Testnet VIRIDI addresses start with 'x'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet VIRIDI script addresses start with '8' or '9'

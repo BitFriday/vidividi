@@ -15,7 +15,7 @@ static const struct {
     const char* titleAddText;
     const char* splashImage;
 } network_styles[] = {
-    {"main", QAPP_APP_NAME_DEFAULT, ":/icons/viridi", "", ":/images/splash"},
+    {"main", QAPP_APP_NAME_DEFAULT, ":/icons/xdna", "", ":/images/splash"},
     {"test", QAPP_APP_NAME_TESTNET, ":/icons/xdna_testnet", QT_TRANSLATE_NOOP("SplashScreen", "[testnet]"), ":/images/splash_testnet"},
     {"regtest", QAPP_APP_NAME_TESTNET, ":/icons/xdna_testnet", "[regtest]", ":/images/splash_testnet"}};
 static const unsigned network_styles_count = sizeof(network_styles) / sizeof(*network_styles);

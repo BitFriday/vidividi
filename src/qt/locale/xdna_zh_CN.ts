@@ -606,7 +606,7 @@
         <translation>发送数字货币到XDNA地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and viridi: URIs)</source>
+        <source>Request payments (generates QR codes and xdna: URIs)</source>
         <translation>请求支付（生成二维码和xdna：URIs）</translation>
     </message>
     <message>
@@ -1518,7 +1518,7 @@ Address: %4
     <name>ZXDnaControlDialog</name>
     </context>
 <context>
-    <name>viridi-core</name>
+    <name>xdna-core</name>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>在收到相关警报时执行命令，或者看到一个很长的分叉（cmd中的%s被消息替换）</translation>

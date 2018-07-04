@@ -1,4 +1,4 @@
-IDI_ICON1 ICON DISCARDABLE "icons/viridi.ico"
+IDI_ICON1 ICON DISCARDABLE "icons/xdna.ico"
 IDI_ICON2 ICON DISCARDABLE "icons/xdna_testnet.ico"
 
 #include <windows.h>             // needed for VERSIONINFO
@@ -22,10 +22,10 @@ BEGIN
             VALUE "CompanyName",        "VIRIDI"
             VALUE "FileDescription",    "VIRIDI Core (OSS GUI client for VIRIDI)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "viridi-qt"
+            VALUE "InternalName",       "xdna-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "viridi-qt.exe"
+            VALUE "OriginalFilename",   "xdna-qt.exe"
             VALUE "ProductName",        "VIRIDI Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

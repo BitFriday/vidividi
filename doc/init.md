@@ -13,7 +13,7 @@ can be found in the contrib/init folder.
 1. Service User
 ---------------------------------
 
-All three startup configurations assume the existence of a "viridi" user
+All three startup configurations assume the existence of a "xdna" user
 and group.  They must be created before attempting to use these scripts.
 
 2. Configuration
@@ -35,10 +35,10 @@ generate one from the shell yourself like this:
 
 bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'
 
-Once you have a password in hand, set rpcpassword= in /etc/viridi/viridi.conf
+Once you have a password in hand, set rpcpassword= in /etc/xdna/xdna.conf
 
 For an example configuration file that describes the configuration settings,
-see contrib/debian/examples/viridi.conf.
+see contrib/debian/examples/xdna.conf.
 
 3. Paths
 ---------------------------------
@@ -46,15 +46,15 @@ see contrib/debian/examples/viridi.conf.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              /usr/bin/xdnad
-Configuration file:  /etc/viridi/viridi.conf
+Configuration file:  /etc/xdna/xdna.conf
 Data directory:      /var/lib/xdnad
 PID file:            /var/run/xdnad/xdnad.pid (OpenRC and Upstart)
                      /var/lib/xdnad/xdnad.pid (systemd)
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the viridi user and group.  It is advised for security
+should all be owned by the xdna user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-viridi user and group.  Access to viridi-cli and other xdnad rpc clients
+xdna user and group.  Access to xdna-cli and other xdnad rpc clients
 can then be controlled by group membership.
 
 4. Installing Service Configuration

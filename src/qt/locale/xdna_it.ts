@@ -598,8 +598,8 @@
         <translation>Invia monete all' indirizzo VIRIDI</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and viridi: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e viridi: URIs)</translation>
+        <source>Request payments (generates QR codes and xdna: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e xdna: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -753,8 +753,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (viridi.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (viridi.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (xdna.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (xdna.conf)</translation>
     </message>
 </context>
 <context>
@@ -1272,7 +1272,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>viridi-core</name>
+    <name>xdna-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

@@ -364,6 +364,6 @@
     </message>
     </context>
 <context>
-    <name>viridi-core</name>
+    <name>xdna-core</name>
     </context>
 </TS>

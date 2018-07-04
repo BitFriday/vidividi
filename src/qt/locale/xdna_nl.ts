@@ -606,7 +606,7 @@
         <translation>Verstuur munten naar een VIRIDI adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and viridi: URIs)</source>
+        <source>Request payments (generates QR codes and xdna: URIs)</source>
         <translation>Vraag betaling aan (genereert QR-codes en VIRIDI: URI's)</translation>
     </message>
     <message>
@@ -805,8 +805,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (viridi.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (viridi.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (xdna.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (xdna.conf).</translation>
     </message>
 </context>
 <context>
@@ -2482,7 +2482,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>viridi-core</name>
+    <name>xdna-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>

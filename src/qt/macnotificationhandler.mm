@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.viridi.Xdna-Qt";
+        return @"io.xdna.Xdna-Qt";
     } else {
         return [self __bundleIdentifier];
     }
