@@ -186,7 +186,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "RT.com Iran may exit nuclear deal in coming weeks – Deputy FM 22 Jun, 2018 08:49";
+        const char* pszTimestamp = "Vidi - Monday, January 1, 2018 12:00:00 PM";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
