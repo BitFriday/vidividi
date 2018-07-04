@@ -3139,6 +3139,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
                 if (pindexPrev->GetBlockHash() == block.hashPrevBlock)
                     nHeight = pindexPrev->nHeight + 1;
 
+            /*
             if(nHeight > 1) { // exclude premine
                 // The first transaction must have Fund and Dev scripts.
                 CScript scriptDevPubKeyIn  = CScript() << Params().xDNADevKey() << OP_CHECKSIG;
@@ -3175,6 +3176,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
                 REJECT_INVALID, "bad-cb-reward-invalid");
 
         }
+        */
     }
 
     // ----------- swiftTX transaction scanning -----------
