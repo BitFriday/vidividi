@@ -359,6 +359,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
             CScript scriptFundPubKeyIn = CScript{} << Params().xDNAFundKey() << OP_CHECKSIG;
 
             /*
+            newton
             auto vDevReward  = block_value * Params().GetDevFee() / 100;
             auto vFundReward = block_value * Params().GetFundFee() / 100;
 
