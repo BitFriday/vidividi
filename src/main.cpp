@@ -1622,7 +1622,7 @@ CAmount GetBlockValue(int nHeight)
     if (nHeight == 0) {
         return 50000000 * COIN;
     } else if (nHeight < Params().ANTI_INSTAMINE_TIME()) {
-        return 1 * COIN;
+        return 61 * COIN;
 
       // POS Year 1
     } else if (nHeight <= 1965600 && nHeight > Params().LAST_POW_BLOCK()) {
