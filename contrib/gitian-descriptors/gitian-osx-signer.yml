@@ -1,5 +1,5 @@
 ---
-name: "xdna-dmg-signer"
+name: "viridi-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -7,10 +7,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/xdna-project/xdna-detached-sigs.git"
+- "url": "https://github.com/viridi-project/viridi-detached-sigs.git"
   "dir": "signature"
 files:
-- "xdna-osx-unsigned.tar.gz"
+- "viridi-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -27,8 +27,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=xdna-osx-unsigned.tar.gz
-  SIGNED=xdna-osx-signed.dmg
+  UNSIGNED=viridi-osx-unsigned.tar.gz
+  SIGNED=viridi-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

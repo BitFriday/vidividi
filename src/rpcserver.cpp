@@ -324,24 +324,24 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
         /* VIRIDI features */
-        {"xdna", "masternode", &masternode, true, true, false},
-        {"xdna", "listmasternodes", &listmasternodes, true, true, false},
-        {"xdna", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"xdna", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"xdna", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"xdna", "masternodedebug", &masternodedebug, true, true, false},
-        {"xdna", "startmasternode", &startmasternode, true, true, false},
-        {"xdna", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"xdna", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"xdna", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"xdna", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"xdna", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"xdna", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"xdna", "mnsync", &mnsync, true, true, false},
-        {"xdna", "spork", &spork, true, true, false},
-        {"xdna", "getpoolinfo", &getpoolinfo, true, true, false},
+        {"viridi", "masternode", &masternode, true, true, false},
+        {"viridi", "listmasternodes", &listmasternodes, true, true, false},
+        {"viridi", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"viridi", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"viridi", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"viridi", "masternodedebug", &masternodedebug, true, true, false},
+        {"viridi", "startmasternode", &startmasternode, true, true, false},
+        {"viridi", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"viridi", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"viridi", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"viridi", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"viridi", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"viridi", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"viridi", "mnsync", &mnsync, true, true, false},
+        {"viridi", "spork", &spork, true, true, false},
+        {"viridi", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"xdna", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"viridi", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -606,7 +606,7 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use xdnad, or the -server option to xdna-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use xdnad, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
                                                "rpcuser=xdnarpc\n"
@@ -1066,7 +1066,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> xdna-cli " + methodname + " " + args + "\n";
+    return "> viridi-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

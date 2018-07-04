@@ -610,8 +610,8 @@
         <translation>An eine VIRIDI-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and xdna: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und xdna: URIs)</translation>
+        <source>Request payments (generates QR codes and viridi: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und viridi: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -812,8 +812,8 @@ Adresse: %4</translation>
         <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (xdna.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "xdna.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (viridi.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "viridi.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -2847,7 +2847,7 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
     </message>
 </context>
 <context>
-    <name>xdna-core</name>
+    <name>viridi-core</name>
     <message>
         <source>Error</source>
         <translation>Fehler</translation>

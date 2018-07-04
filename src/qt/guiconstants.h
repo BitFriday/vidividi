@@ -50,7 +50,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 30
 
 #define QAPP_ORG_NAME "VIRIDI"
-#define QAPP_ORG_DOMAIN "xdna.io"
+#define QAPP_ORG_DOMAIN "viridi.io"
 #define QAPP_APP_NAME_DEFAULT "VIRIDI-Qt"
 #define QAPP_APP_NAME_TESTNET "VIRIDI-Qt-testnet"
 

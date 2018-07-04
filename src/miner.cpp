@@ -469,7 +469,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
     LogPrintf("XDNAMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("xdna-miner");
+    RenameThread("viridi-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);

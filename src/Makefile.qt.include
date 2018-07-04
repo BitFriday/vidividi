@@ -1,7 +1,7 @@
-bin_PROGRAMS += qt/xdna-qt
+bin_PROGRAMS += qt/viridi-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# xdna qt core #
+# viridi qt core #
 QT_TS = \
   qt/locale/xdna_bg.ts \
   qt/locale/xdna_ca.ts \
@@ -112,14 +112,14 @@ BITCOIN_MM = \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/xdna.moc \
+  qt/viridi.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
 QT_QRC_CPP = qt/qrc_xdna.cpp
-QT_QRC = qt/xdna.qrc
+QT_QRC = qt/viridi.qrc
 QT_QRC_LOCALE_CPP = qt/qrc_xdna_locale.cpp
 QT_QRC_LOCALE = qt/xdna_locale.qrc
 
@@ -191,8 +191,8 @@ BITCOIN_QT_H = \
 RES_ICONS = \
   qt/res/icons/add.png \
   qt/res/icons/address-book.png \
-  qt/res/icons/xdna.ico \
-  qt/res/icons/xdna.png \
+  qt/res/icons/viridi.ico \
+  qt/res/icons/viridi.png \
   qt/res/icons/xdna_testnet.ico \
   qt/res/icons/xdna_testnet.png \
   qt/res/icons/browse.png \
@@ -328,7 +328,7 @@ RES_CSS = \
 
 RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/xdna-qt-res.rc
+BITCOIN_RC = qt/res/viridi-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms
@@ -355,11 +355,11 @@ $(qt_libbitcoinqt_a_OBJECTS) $(qt_xdna_qt_OBJECTS) : | $(QT_MOC)
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# xdna-qt binary #
+# viridi-qt binary #
 qt_xdna_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_xdna_qt_SOURCES = qt/xdna.cpp
+qt_xdna_qt_SOURCES = qt/viridi.cpp
 if TARGET_DARWIN
   qt_xdna_qt_SOURCES += $(BITCOIN_MM)
 endif
@@ -400,7 +400,7 @@ $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H) $(RES_FONTS)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name xdna $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name viridi $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno
@@ -408,9 +408,9 @@ CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda 
 CLEANFILES += $(CLEAN_QT)
 
 xdna_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_xdna_qt_OBJECTS) qt/xdna-qt$(EXEEXT) $(LIBBITCOINQT)
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_xdna_qt_OBJECTS) qt/viridi-qt$(EXEEXT) $(LIBBITCOINQT)
 
-xdna_qt : qt/xdna-qt$(EXEEXT)
+xdna_qt : qt/viridi-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

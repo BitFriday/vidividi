@@ -398,6 +398,6 @@
     <name>ZXDnaControlDialog</name>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>viridi-core</name>
     </context>
 </TS>

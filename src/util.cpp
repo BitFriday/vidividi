@@ -8,7 +8,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/xdna-config.h"
+#include "config/viridi-config.h"
 #endif
 
 #include "util.h"
@@ -234,8 +234,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "xdna" is a composite category enabling all VIRIDI-related debug output
-            if (ptrCategory->count(string("xdna"))) {
+            // "viridi" is a composite category enabling all VIRIDI-related debug output
+            if (ptrCategory->count(string("viridi"))) {
                 ptrCategory->insert(string("obfuscation"));
                 ptrCategory->insert(string("swiftx"));
                 ptrCategory->insert(string("masternode"));
@@ -398,7 +398,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "xdna";
+    const char* pszModule = "viridi";
 #endif
     if (pex)
         return strprintf(
@@ -422,7 +422,7 @@ boost::filesystem::path GetDefaultDataDir()
 // Windows < Vista: C:\Documents and Settings\Username\Application Data\VIRIDI
 // Windows >= Vista: C:\Users\Username\AppData\Roaming\VIRIDI
 // Mac: ~/Library/Application Support/VIRIDI
-// Unix: ~/.xdna
+// Unix: ~/.viridi
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "VIRIDI";
@@ -440,7 +440,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "VIRIDI";
 #else
     // Unix
-    return pathRet / ".xdna";
+    return pathRet / ".viridi";
 #endif
 #endif
 }
@@ -487,7 +487,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "xdna.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "viridi.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -506,7 +506,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty xdna.conf if it does not exist
+        // Create empty viridi.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -517,7 +517,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override xdna.conf
+        // Don't overwrite existing settings so command line settings override viridi.conf
         string strKey = string("-") + it->string_key;
         string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);

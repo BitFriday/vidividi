@@ -2,18 +2,18 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/xdna/.xdna" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/xdna/.xdna"
+if [ -d "/var/lib/viridi/.viridi" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/viridi/.viridi"
 else
 	BITCOIND_DEFAULT_DATADIR="/var/lib/xdnad"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/xdna/xdna.conf}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/viridi/viridi.conf}
 BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/xdnad}
 BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/xdnad.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-xdna}
-BITCOIND_GROUP=${BITCOIND_GROUP:-xdna}
+BITCOIND_USER=${BITCOIND_USER:-viridi}
+BITCOIND_GROUP=${BITCOIND_GROUP:-viridi}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/xdnad}
 
 name="VIRIDI Daemon"

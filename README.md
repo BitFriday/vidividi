@@ -5,7 +5,7 @@ VIRIDI is a brand new digital currency that combines all the positive aspects of
 The project brings tangible benefits not only to the digital world but also to the real one.
 
 
-More information at [xdna.io](http://www.xdna.io) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org), join ou group at [Discord] (https://discord.gg/S9adMgS).
+More information at [viridi.io](http://www.viridi.io) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org), join ou group at [Discord] (https://discord.gg/S9adMgS).
 
 ### Coin Specs
 

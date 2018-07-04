@@ -28,7 +28,7 @@ std::string HelpMessageCli()
     string strUsage;
     strUsage += HelpMessageGroup(_("Options:"));
     strUsage += HelpMessageOpt("-?", _("This help message"));
-    strUsage += HelpMessageOpt("-conf=<file>", strprintf(_("Specify configuration file (default: %s)"), "xdna.conf"));
+    strUsage += HelpMessageOpt("-conf=<file>", strprintf(_("Specify configuration file (default: %s)"), "viridi.conf"));
     strUsage += HelpMessageOpt("-datadir=<dir>", _("Specify data directory"));
     strUsage += HelpMessageOpt("-testnet", _("Use the test network"));
     strUsage += HelpMessageOpt("-regtest", _("Enter regression test mode, which uses a special chain in which blocks can be "
@@ -72,9 +72,9 @@ static bool AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("VIRIDI Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  xdna-cli [options] <command> [params]  " + _("Send command to VIRIDI Core") + "\n" +
-                        "  xdna-cli [options] help                " + _("List commands") + "\n" +
-                        "  xdna-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                        "  viridi-cli [options] <command> [params]  " + _("Send command to VIRIDI Core") + "\n" +
+                        "  viridi-cli [options] help                " + _("List commands") + "\n" +
+                        "  viridi-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

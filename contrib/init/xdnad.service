@@ -3,16 +3,16 @@ Description=VIRIDI's distributed currency daemon
 After=network.target
 
 [Service]
-User=xdna
-Group=xdna
+User=viridi
+Group=viridi
 
 Type=forking
 PIDFile=/var/lib/xdnad/xdnad.pid
 
 ExecStart=/usr/bin/xdnad -daemon -pid=/var/lib/xdnad/xdnad.pid \
-          -conf=/etc/xdna/xdna.conf -datadir=/var/lib/xdnad
+          -conf=/etc/viridi/viridi.conf -datadir=/var/lib/xdnad
 
-ExecStop=-/usr/bin/xdna-cli -conf=/etc/xdna/xdna.conf \
+ExecStop=-/usr/bin/viridi-cli -conf=/etc/viridi/viridi.conf \
          -datadir=/var/lib/xdnad stop
 
 Restart=always

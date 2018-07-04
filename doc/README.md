@@ -3,7 +3,7 @@ VIRIDI
 
 Setup
 ---------------------
-[VIRIDI](http://xdna.io/wallet) is the original VIRIDI client and it builds the backbone of the network. However, it downloads and stores the entire history of VIRIDI transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[VIRIDI](http://viridi.io/wallet) is the original VIRIDI client and it builds the backbone of the network. However, it downloads and stores the entire history of VIRIDI transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -13,12 +13,12 @@ The following are some helpful notes on how to run VIRIDI on your native platfor
 
 Unpack the files into a directory and run:
 
-- bin/32/xdna-qt (GUI, 32-bit) or bin/32/xdnad (headless, 32-bit)
-- bin/64/xdna-qt (GUI, 64-bit) or bin/64/xdnad (headless, 64-bit)
+- bin/32/viridi-qt (GUI, 32-bit) or bin/32/xdnad (headless, 32-bit)
+- bin/64/viridi-qt (GUI, 64-bit) or bin/64/xdnad (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run xdna-qt.exe.
+Unpack the files into a directory, and then run viridi-qt.exe.
 
 ### OSX
 
@@ -26,9 +26,9 @@ Drag VIRIDI-Qt to your applications folder, and then run VIRIDI-Qt.
 
 ### Need Help?
 
-* See the documentation at the [VIRIDI Wiki](https://en.xdna.io/wiki/Main_Page) ***TODO***
+* See the documentation at the [VIRIDI Wiki](https://en.viridi.io/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org) or on the [VIRIDI Forum](http://forum.xdna.io/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org) or on the [VIRIDI Forum](http://forum.viridi.io/).
 * Join our Discord server [Discord Server](https://discord.gg/S9adMgS)
 
 Building
@@ -56,7 +56,7 @@ The VIRIDI repo's [root README](https://github.com/VIRIDI-Core/VIRIDI/blob/maste
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [VIRIDI](http://forum.xdna.io/) forum.
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [VIRIDI](http://forum.viridi.io/) forum.
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

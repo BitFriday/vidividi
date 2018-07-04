@@ -6,14 +6,14 @@
 #define BITCOIN_CLIENTVERSION_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/xdna-config.h"
+#include "config/viridi-config.h"
 #else
 
 /**
  * client versioning and copyright year
  */
 
-//! These need to be macros, as clientversion.cpp's and xdna*-res.rc's voodoo requires it
+//! These need to be macros, as clientversion.cpp's and viridi*-res.rc's voodoo requires it
 #define CLIENT_VERSION_MAJOR 1
 #define CLIENT_VERSION_MINOR 0
 #define CLIENT_VERSION_REVISION 2

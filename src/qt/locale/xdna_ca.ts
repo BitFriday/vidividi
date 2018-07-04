@@ -1292,7 +1292,7 @@
     </message>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>viridi-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

@@ -1,6 +1,6 @@
 [Protocol]
-exec=xdna-qt '%u'
-protocol=xdna
+exec=viridi-qt '%u'
+protocol=viridi
 input=none
 output=none
 helper=true
