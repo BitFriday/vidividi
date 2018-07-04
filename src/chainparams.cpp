@@ -166,7 +166,7 @@ public:
         nMinerThreads = 0;
         nTargetSpacing = 1 * 60;  // VIRIDI: 1 minute
         nAntiInstamineTime = 720; // 720 blocks with 1 reward for instamine prevention
-        nMaturity = 10;
+        nMaturity = 60;
         nMasternodeCountDrift = 3;
         nMaxMoneyOut = 367452000 * COIN;
 
