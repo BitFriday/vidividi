@@ -164,7 +164,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetSpacing = 1 * 60;  // VIRIDI: 1 minute
+        //nTargetSpacing = 1 * 60;  // VIRIDI: 1 minute
+        nTargetSpacing = 1 * 10;  // VIRIDI: 10 seconds
         nAntiInstamineTime = 720; // 720 blocks with 1 reward for instamine prevention
         nMaturity = 60;
         nMasternodeCountDrift = 3;
