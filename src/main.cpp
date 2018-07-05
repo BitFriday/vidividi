@@ -1619,11 +1619,11 @@ double ConvertBitsToDouble(unsigned int nBits)
 
 CAmount GetBlockValue(int nHeight)
 {
-      // Premine amount
     if (nHeight == 0) {
         return 1 * COIN;
     } else if (nHeight < Params().ANTI_INSTAMINE_TIME()) {
         return 1 * COIN;
+
       // POS Year 1
     } else if (nHeight <= 1965600 && nHeight > Params().LAST_POW_BLOCK()) {
         return 57 * COIN;
