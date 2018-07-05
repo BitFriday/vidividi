@@ -164,18 +164,15 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        //nTargetSpacing = 1 * 60;  // VIRIDI: 1 minute
-        nTargetSpacing = 1 * 1;  // VIRIDI: 1 minute
+        nTargetSpacing = 1 * 60;  // VIRIDI: 1 minute
         nAntiInstamineTime = 720; // 720 blocks with 1 reward for instamine prevention
         nMaturity = 60;
         nMasternodeCountDrift = 3;
         nMaxMoneyOut = 367452000 * COIN;
-        //nMaxMoneyOut = 150762617 * COIN;
 
         nStartMasternodePaymentsBlock = 7001;
 
         /** Height or Time Based Activations **/
-        //nLastPOWBlock = 1440000;
         nLastPOWBlock = 1440000;
         nModifierUpdateBlock = std::numeric_limits<decltype(nModifierUpdateBlock)>::max();
 
