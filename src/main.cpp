@@ -1623,7 +1623,7 @@ CAmount GetBlockValue(int nHeight)
         return 1 * COIN;
 
     } else if (nHeight < 100) {
-        return 69444 * COIN;
+        return 507626 * COIN;
       
     } else if (nHeight < Params().ANTI_INSTAMINE_TIME()) {
         return 1 * COIN;
