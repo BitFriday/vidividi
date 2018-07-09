@@ -65,7 +65,7 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/xdna.conf are parsed in qt/xdna.cpp's main()
+    // If Qt is used, parameters/xdna.conf are parsed in qt/viridi.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir

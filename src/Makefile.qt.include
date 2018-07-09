@@ -359,7 +359,7 @@ $(QT_MOC_CPP): $(PROTOBUF_H)
 qt_viridi_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_viridi_qt_SOURCES = qt/xdna.cpp
+qt_viridi_qt_SOURCES = qt/viridi.cpp
 if TARGET_DARWIN
   qt_viridi_qt_SOURCES += $(BITCOIN_MM)
 endif
