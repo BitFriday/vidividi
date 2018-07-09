@@ -367,38 +367,38 @@ viridid_LDADD = \
 viridid_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # viridi-cli binary #
-xdna_cli_SOURCES = viridi-cli.cpp
-xdna_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-xdna_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-xdna_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+viridi_cli_SOURCES = viridi-cli.cpp
+viridi_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+viridi_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+viridi_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-xdna_cli_SOURCES += viridi-cli-res.rc
+viridi_cli_SOURCES += viridi-cli-res.rc
 endif
 
-xdna_cli_LDADD = \
+viridi_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-xdna_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+viridi_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # viridi-tx binary #
-xdna_tx_SOURCES = viridi-tx.cpp
-xdna_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-xdna_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-xdna_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+viridi_tx_SOURCES = viridi-tx.cpp
+viridi_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+viridi_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+viridi_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
-xdna_tx_LDADD = \
+viridi_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-xdna_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+viridi_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 if BUILD_BITCOIN_LIBS
