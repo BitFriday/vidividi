@@ -1,5 +1,5 @@
-bin_PROGRAMS += qt/test/test_xdna-qt
-TESTS += qt/test/test_xdna-qt
+bin_PROGRAMS += qt/test/test_viridi-qt
+TESTS += qt/test/test_viridi-qt
 
 TEST_QT_MOC_CPP = qt/test/moc_uritests.cpp
 
@@ -43,9 +43,9 @@ CLEAN_BITCOIN_QT_TEST = $(TEST_QT_MOC_CPP) qt/test/*.gcda qt/test/*.gcno
 
 CLEANFILES += $(CLEAN_BITCOIN_QT_TEST)
 
-test_xdna_qt : qt/test/test_xdna-qt$(EXEEXT)
+test_xdna_qt : qt/test/test_viridi-qt$(EXEEXT)
 
-test_xdna_qt_check : qt/test/test_xdna-qt$(EXEEXT) FORCE
+test_xdna_qt_check : qt/test/test_viridi-qt$(EXEEXT) FORCE
 	$(MAKE) check-TESTS TESTS=$^
 
 test_xdna_qt_clean: FORCE

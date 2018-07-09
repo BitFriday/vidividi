@@ -48,10 +48,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("VIRIDI Core xdna-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("VIRIDI Core viridi-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  xdna-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded VIRIDI transaction") + "\n" +
-                               "  xdna-tx [options] -create [commands]   " + _("Create hex-encoded VIRIDI transaction") + "\n" +
+                               "  viridi-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded VIRIDI transaction") + "\n" +
+                               "  viridi-tx [options] -create [commands]   " + _("Create hex-encoded VIRIDI transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());

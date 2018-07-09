@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: xdnad.service
-Upstart: xdnad.conf
-OpenRC:  xdnad.openrc
-         xdnad.openrcconf
-CentOS:  xdnad.init
+SystemD: viridid.service
+Upstart: viridid.conf
+OpenRC:  viridid.openrc
+         viridid.openrcconf
+CentOS:  viridid.init
 
 have been made available to assist packagers in creating node packages here.
 

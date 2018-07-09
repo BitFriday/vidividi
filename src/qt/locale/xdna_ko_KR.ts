@@ -1719,9 +1719,9 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/xdna-project/xdna-project-translations</source>
+https://www.transifex.com/viridi-project/viridi-project-translations</source>
         <translation>지원 언어가 없거나 번역이 불완전한가요? 번역 기여 도움말:
-https://www.transifex.com/xdna-project/xdna-project-translations</translation>
+https://www.transifex.com/viridi-project/viridi-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -4092,7 +4092,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>이 제품은 OpenSSL이 개발한 Open SSL 툴킷 &lt;https://www.openssl.org/&gt; 에서 사용하기 위한 프로젝트 소프트웨어, Eric Young이 개발한 암호화 소프트웨어, Thomas Bernard가 개발한 UPnP 소프트웨어가 포함되어 있습니다.</translation>
     </message>
     <message>
-        <source>To use xdnad, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
+        <source>To use viridid, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=xdnarpc
@@ -4103,7 +4103,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "VIRIDI Alert" admin@foo.com
 </source>
-        <translation>xdnad 또는 VIRIDI-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
+        <translation>viridid 또는 VIRIDI-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
 %s
 다음 무작위 암호를 사용하는 것을 추천합니다:
 rpcuser=XDNApc

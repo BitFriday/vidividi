@@ -72,9 +72,9 @@ static bool AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("VIRIDI Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  xdna-cli [options] <command> [params]  " + _("Send command to VIRIDI Core") + "\n" +
-                        "  xdna-cli [options] help                " + _("List commands") + "\n" +
-                        "  xdna-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                        "  viridi-cli [options] <command> [params]  " + _("Send command to VIRIDI Core") + "\n" +
+                        "  viridi-cli [options] help                " + _("List commands") + "\n" +
+                        "  viridi-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

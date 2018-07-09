@@ -1719,9 +1719,9 @@ Please check the address and try again.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/xdna-project/xdna-project-translations</source>
+https://www.transifex.com/viridi-project/viridi-project-translations</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/xdna-project/xdna-project-translations</translation>
+https://www.transifex.com/viridi-project/viridi-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -4086,7 +4086,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use xdnad, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
+        <source>To use viridid, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=xdnarpc
@@ -4097,7 +4097,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "VIRIDI Alert" admin@foo.com
 </source>
-        <translation>To use xdnad, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use viridid, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=xdnarpc

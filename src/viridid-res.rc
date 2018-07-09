@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "VIRIDI"
-            VALUE "FileDescription",    "xdnad (OSS daemon/client for VIRIDI)"
+            VALUE "FileDescription",    "viridid (OSS daemon/client for VIRIDI)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "xdnad"
+            VALUE "InternalName",       "viridid"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "xdnad.exe"
-            VALUE "ProductName",        "xdnad"
+            VALUE "OriginalFilename",   "viridid.exe"
+            VALUE "ProductName",        "viridid"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

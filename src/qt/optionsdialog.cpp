@@ -44,7 +44,7 @@ OptionsDialog::OptionsDialog(QWidget* parent, bool enableWallet) : QDialog(paren
     ui->percentage_label->setVisible(false);
     ui->obfuscationRounds->setVisible(false);
     ui->label_2->setVisible(false);
-    ui->anonymizeXDna->setVisible(false);
+    ui->anonymizeviridi->setVisible(false);
 
 
     /* Main elements init */

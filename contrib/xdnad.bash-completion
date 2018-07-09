@@ -1,11 +1,11 @@
-# bash programmable completion for xdnad(1) and xdna-cli(1)
+# bash programmable completion for viridid(1) and viridi-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have xdnad && {
+have viridid && {
 
-# call $xdnad for RPC
+# call $viridid for RPC
 _xdna_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
@@ -16,7 +16,7 @@ _xdna_rpc() {
                 ;;
         esac
     done
-    $xdnad "${rpcargs[@]}" "$@"
+    $viridid "${rpcargs[@]}" "$@"
 }
 
 # Add xdna accounts to COMPREPLY
@@ -26,13 +26,13 @@ _xdna_accounts() {
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_xdnad() {
+_viridid() {
     local cur prev words=() cword
-    local xdnad
+    local viridid
 
-    # save and use original argument to invoke xdnad
-    # xdnad might not be in $PATH
-    xdnad="$1"
+    # save and use original argument to invoke viridid
+    # viridid might not be in $PATH
+    viridid="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -114,7 +114,7 @@ _xdnad() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($xdnad --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($viridid --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
@@ -133,7 +133,7 @@ _xdnad() {
     esac
 }
 
-complete -F _xdnad xdnad xdna-cli
+complete -F _viridid viridid viridi-cli
 }
 
 # Local variables:

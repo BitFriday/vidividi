@@ -107,7 +107,7 @@ built by default.
 
 Notes
 -----
-The release is built with GCC and then "strip xdnad" to strip the debug
+The release is built with GCC and then "strip viridid" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -196,7 +196,7 @@ Hardening enables the following features:
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
-    	scanelf -e ./xdnad
+    	scanelf -e ./viridid
 
     The output should contain:
      TYPE
@@ -210,7 +210,7 @@ Hardening enables the following features:
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    `scanelf -e ./xdnad`
+    `scanelf -e ./viridid`
 
     the output should contain:
 	STK/REL/PTL

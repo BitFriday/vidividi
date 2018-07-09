@@ -1719,9 +1719,9 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/xdna-project/xdna-project-translations</source>
+https://www.transifex.com/viridi-project/viridi-project-translations</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/xdna-project/xdna-project-translations</translation>
+https://www.transifex.com/viridi-project/viridi-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -4083,7 +4083,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use xdnad, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
+        <source>To use viridid, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=xdnarpc
@@ -4094,7 +4094,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "VIRIDI Alert" admin@foo.com
 </source>
-        <translation>Para usar xdnad, o la opción -server de viridi-qt, debes definir un rpcpassword en el archivo de configuración:
+        <translation>Para usar viridid, o la opción -server de viridi-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
 Es recomendado que uses la siguiente contraseña aleatoria:
 rpcuser=xdna

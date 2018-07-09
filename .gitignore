@@ -12,11 +12,11 @@ reset-files.bash
 
 *.exe
 src/xdna
-src/xdnad
-src/xdna-cli
-src/xdna-tx
+src/viridid
+src/viridi-cli
+src/viridi-tx
 src/test/test_xdna
-src/qt/test/test_xdna-qt
+src/qt/test/test_viridi-qt
 src/bench/bench_xdna
 
 # autoreconf
@@ -93,7 +93,7 @@ VIRIDI-Qt.app
 
 # Unit-tests
 Makefile.test
-xdna-qt_test
+viridi-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -136,8 +136,8 @@ src/qt/viridi-qt.bash
 qa/pull-tester/tests-config.sh
 
 #development symlinks
-xdna-cli
-xdnad
+viridi-cli
+viridid
 viridi-qt
 make
 

@@ -1,8 +1,8 @@
 
 Debian
 ====================
-This directory contains files used to package xdnad/viridi-qt
-for Debian-based Linux systems. If you compile xdnad/viridi-qt yourself, there are some useful files here.
+This directory contains files used to package viridid/viridi-qt
+for Debian-based Linux systems. If you compile viridid/viridi-qt yourself, there are some useful files here.
 
 ## xdna: URI support ##
 

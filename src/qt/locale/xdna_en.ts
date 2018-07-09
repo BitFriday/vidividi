@@ -2167,7 +2167,7 @@ Please check the address and try again.</source>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/xdna-project/xdna-project-translations</source>
+https://www.transifex.com/viridi-project/viridi-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5241,7 +5241,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use xdnad, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
+        <source>To use viridid, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=xdnarpc

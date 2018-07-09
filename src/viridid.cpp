@@ -76,7 +76,7 @@ bool AppInit(int argc, char* argv[])
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  xdnad [options]                     " + _("Start VIRIDI Core Daemon") + "\n";
+                        "  viridid [options]                     " + _("Start VIRIDI Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -116,7 +116,7 @@ bool AppInit(int argc, char* argv[])
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in xdnad anymore. Use the xdna-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in viridid anymore. Use the viridi-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
@@ -175,7 +175,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect xdnad signal handlers
+    // Connect viridid signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

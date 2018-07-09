@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between xdna-cli and xdnad)
+ * CBaseChainParams defines the base parameters (shared between viridi-cli and viridid)
  * of a given instance of the VIRIDI system.
  */
 class CBaseChainParams

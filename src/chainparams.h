@@ -53,7 +53,7 @@ public:
     const MessageStartChars& MessageStart() const { return pchMessageStart; }
     const std::vector<unsigned char>& AlertKey() const { return vAlertPubKey; }
 
-    const std::vector<unsigned char>& xDNADevKey() const { return vXDNADevKey; }
+    const std::vector<unsigned char>& virididevKey() const { return vvirididevKey; }
     const std::vector<unsigned char>& xDNAFundKey() const { return vXDNAFundKey; }
     int GetDevFee() const { return nDevFee; }
     int GetFundFee() const { return nFundFee; }
@@ -120,7 +120,7 @@ protected:
     MessageStartChars pchMessageStart;
     //! Raw pub key bytes for the broadcast alert signing key.
     std::vector<unsigned char> vAlertPubKey;
-    std::vector<unsigned char> vXDNADevKey;
+    std::vector<unsigned char> vvirididevKey;
     std::vector<unsigned char> vXDNAFundKey;
     int nDevFee;
     int nFundFee;

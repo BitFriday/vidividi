@@ -8,7 +8,7 @@ and remove old versions as necessary.
 
 The seeds compiled into the release are created from xdna.io DNS seed data, like this:
 
-    curl -s http://seed01.xdna.io/xdna-mainnet.txt > seeds_main.txt
+    curl -s http://seed01.xdna.io/viridi-mainnet.txt > seeds_main.txt
     python3 makeseeds.py < seeds_main.txt > nodes_main.txt
     python3 generate-seeds.py . > ../../src/chainparamsseeds.h
 

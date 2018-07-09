@@ -355,7 +355,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
             txReward.vout[reward_out_idx].nValue -= mn_reward;
 
             // VIRIDI fees
-            CScript scriptDevPubKeyIn  = CScript{} << Params().xDNADevKey() << OP_CHECKSIG;
+            CScript scriptDevPubKeyIn  = CScript{} << Params().virididevKey() << OP_CHECKSIG;
             CScript scriptFundPubKeyIn = CScript{} << Params().xDNAFundKey() << OP_CHECKSIG;
 
             auto vDevReward  = block_value * Params().GetDevFee() / 100;
@@ -469,7 +469,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
     LogPrintf("XDNAMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("xdna-miner");
+    RenameThread("viridi-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
