@@ -69,7 +69,7 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 1. Make sure you installed everything through homebrew mentioned above
 2. Do a proper ./configure --with-gui=qt5 --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "xdna-qt" as project name, enter src/qt as location
+4. Enter "viridi-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
@@ -83,7 +83,7 @@ You can ignore this section if you are building `xdnad` for your own use.
 
 xdnad/xdna-cli binaries are not included in the xdna-Qt.app bundle.
 
-If you are building `xdnad` or `xdna-qt` for others, your build machine should be set up
+If you are building `xdnad` or `viridi-qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:

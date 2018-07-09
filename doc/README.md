@@ -13,12 +13,12 @@ The following are some helpful notes on how to run VIRIDI on your native platfor
 
 Unpack the files into a directory and run:
 
-- bin/32/xdna-qt (GUI, 32-bit) or bin/32/xdnad (headless, 32-bit)
-- bin/64/xdna-qt (GUI, 64-bit) or bin/64/xdnad (headless, 64-bit)
+- bin/32/viridi-qt (GUI, 32-bit) or bin/32/xdnad (headless, 32-bit)
+- bin/64/viridi-qt (GUI, 64-bit) or bin/64/xdnad (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run xdna-qt.exe.
+Unpack the files into a directory, and then run viridi-qt.exe.
 
 ### OSX
 

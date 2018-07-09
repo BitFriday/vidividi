@@ -88,7 +88,7 @@ libconftest.dylib*
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-xdna-qt
+viridi-qt
 VIRIDI-Qt.app
 
 # Unit-tests
@@ -132,13 +132,13 @@ share/BitcoindComparisonTool.jar
 
 libbitcoinconsensus.pc
 libxdnaconsensus.pc
-src/qt/xdna-qt.bash
+src/qt/viridi-qt.bash
 qa/pull-tester/tests-config.sh
 
 #development symlinks
 xdna-cli
 xdnad
-xdna-qt
+viridi-qt
 make
 
 #development local files

@@ -13,7 +13,7 @@ AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
 BITCOIN_DAEMON_NAME=xdnad
-BITCOIN_GUI_NAME=xdna-qt
+BITCOIN_GUI_NAME=viridi-qt
 BITCOIN_CLI_NAME=xdna-cli
 BITCOIN_TX_NAME=xdna-tx
 

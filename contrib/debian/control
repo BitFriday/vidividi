@@ -40,7 +40,7 @@ Description: peer-to-peer network based digital currency - daemon
  This package provides the daemon, xdnad, and the CLI tool
  xdna-cli to interact with the daemon.
 
-Package: xdna-qt
+Package: viridi-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI

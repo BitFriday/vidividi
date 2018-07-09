@@ -5241,7 +5241,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use xdnad, or the -server option to xdna-qt, you must set an rpcpassword in the configuration file:
+        <source>To use xdnad, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=xdnarpc

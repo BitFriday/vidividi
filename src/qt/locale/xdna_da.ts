@@ -4034,7 +4034,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Dette produkt anvender software udviklet i OpenSSL projektet til brug i OpenSSL værktøjssættet &lt;https://www.openssl.org/&gt; og kryptosoftware skrevet afEric Young og UPnP software skrevet af Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use xdnad, or the -server option to xdna-qt, you must set an rpcpassword in the configuration file:
+        <source>To use xdnad, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=xdnarpc
@@ -4045,7 +4045,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "VIRIDI Alert" admin@foo.com
 </source>
-        <translation>For at bruge xdnad eller -server muligheden sammen med xdna-qt skal der angives et rpc kodeord i konfigurationsfilen:
+        <translation>For at bruge xdnad eller -server muligheden sammen med viridi-qt skal der angives et rpc kodeord i konfigurationsfilen:
 %s
 De anbefales at benytte følgende tilfældige kodeord
 Rpcuser=xdnarpc
