@@ -28,7 +28,7 @@
       </sizepolicy>
      </property>
      <property name="pixmap">
-      <pixmap resource="../xdna.qrc">:/images/about</pixmap>
+      <pixmap resource="../viridi.qrc">:/images/about</pixmap>
      </property>
     </widget>
    </item>
@@ -97,7 +97,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../xdna.qrc"/>
+  <include location="../viridi.qrc"/>
  </resources>
  <connections>
   <connection>

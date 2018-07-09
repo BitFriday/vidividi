@@ -29,7 +29,7 @@ FORMS += \
     ../src/qt/forms/transactiondescdialog.ui
 
 RESOURCES += \
-    ../src/qt/xdna.qrc
+    ../src/qt/viridi.qrc
 
 
 
@@ -109,7 +109,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/xdna-config.h \
+           src/viridi-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -162,7 +162,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/xdna-config.h \
+           src/config/viridi-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -398,8 +398,8 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/xdna-cli.cpp \
-           src/xdna-tx.cpp \
+           src/viridi-cli.cpp \
+           src/viridi-tx.cpp \
            src/xdna.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
@@ -491,7 +491,7 @@ SOURCES += src/activemasternode.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
            src/qt/xdna.cpp \
-           src/qt/xdnastrings.cpp \
+           src/qt/viridistrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -660,7 +660,7 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/xdna.qrc src/qt/xdna_locale.qrc
+RESOURCES += src/qt/viridi.qrc src/qt/viridi_locale.qrc
 
 TRANSLATIONS += src/qt/locale/xdna_bg.ts \
                 src/qt/locale/xdna_de.ts \

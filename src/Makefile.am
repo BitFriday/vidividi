@@ -344,13 +344,13 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # xdnad binary #
-xdnad_SOURCES = xdnad.cpp
+xdnad_SOURCES = viridid.cpp
 xdnad_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 xdnad_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 xdnad_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-xdnad_SOURCES += xdnad-res.rc
+xdnad_SOURCES += viridid-res.rc
 endif
 xdnad_LDADD = \
   $(LIBBITCOIN_SERVER) \
@@ -367,13 +367,13 @@ xdnad_LDADD = \
 xdnad_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # xdna-cli binary #
-xdna_cli_SOURCES = xdna-cli.cpp
+xdna_cli_SOURCES = viridi-cli.cpp
 xdna_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 xdna_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 xdna_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-xdna_cli_SOURCES += xdna-cli-res.rc
+xdna_cli_SOURCES += viridi-cli-res.rc
 endif
 
 xdna_cli_LDADD = \
@@ -386,7 +386,7 @@ xdna_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # xdna-tx binary #
-xdna_tx_SOURCES = xdna-tx.cpp
+xdna_tx_SOURCES = viridi-tx.cpp
 xdna_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 xdna_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 xdna_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)

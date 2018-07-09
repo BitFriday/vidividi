@@ -10,7 +10,7 @@ import operator
 import os
 import sys
 
-OUT_CPP="qt/xdnastrings.cpp"
+OUT_CPP="qt/viridistrings.cpp"
 EMPTY=['""']
 
 def parse_po(text):
