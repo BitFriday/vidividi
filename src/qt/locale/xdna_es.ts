@@ -176,8 +176,8 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
-        <translation>VIRIDI se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus XDNAs no sean robados mediante malware de su ordenador.</translation>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VIRIDIs from being stolen by malware infecting your computer.</source>
+        <translation>VIRIDI se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus VIRIDIs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -2841,12 +2841,12 @@ https://www.transifex.com/viridi-project/viridi-project-translations</translatio
         <translation>Tiempo de confirmación:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXDNAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXDNAs in fee,&lt;br /&gt;while "at least" pays 1000 uXDNAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uXDNAs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uXDNAs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uXDNAs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uVIRIDIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVIRIDIs in fee,&lt;br /&gt;while "at least" pays 1000 uVIRIDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uVIRIDIs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uVIRIDIs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uVIRIDIs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXDNAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXDNAs in fee,&lt;br /&gt;while "total at least" pays 1000 uXDNAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uXDNAs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uXDNAs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uXDNAs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uVIRIDIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVIRIDIs in fee,&lt;br /&gt;while "total at least" pays 1000 uVIRIDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uVIRIDIs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uVIRIDIs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uVIRIDIs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for VIRIDI transactions than the network can process.</source>

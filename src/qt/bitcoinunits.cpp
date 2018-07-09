@@ -21,7 +21,7 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
     unitlist.append(VIC);
-   // unitlist.append(mXDNA);
+   // unitlist.append(mVIRIDI);
    // unitlist.append(uVIC);
     return unitlist;
 }

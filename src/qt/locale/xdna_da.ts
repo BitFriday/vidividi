@@ -176,7 +176,7 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VIRIDIs from being stolen by malware infecting your computer.</source>
         <translation>VIRIDI vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
@@ -2807,12 +2807,12 @@ https://www.transifex.com/viridi-project/viridi-project-translations</translatio
         <translation>Bekræftelsestid</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXDNAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXDNAs in fee,&lt;br /&gt;while "at least" pays 1000 uXDNAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uXDNAs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uVIC i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uXDNAs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uVIRIDIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVIRIDIs in fee,&lt;br /&gt;while "at least" pays 1000 uVIRIDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uVIRIDIs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uVIC i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uVIRIDIs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXDNAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXDNAs in fee,&lt;br /&gt;while "total at least" pays 1000 uXDNAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uXDNAs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uVIC i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uXDNAs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uVIRIDIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVIRIDIs in fee,&lt;br /&gt;while "total at least" pays 1000 uVIRIDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uVIRIDIs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uVIC i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uVIRIDIs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for VIRIDI transactions than the network can process.</source>

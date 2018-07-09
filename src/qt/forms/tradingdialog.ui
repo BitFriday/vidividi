@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="XDNASupply">
+    <widget class="QLabel" name="VIRIDISupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyXDNA">
+    <widget class="QPushButton" name="BuyVIRIDI">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1707,7 +1707,7 @@
       <string>VIRIDI</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputXDNA">
+    <widget class="QLineEdit" name="UnitsInputVIRIDI">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellXDNABTN">
+    <widget class="QPushButton" name="SellVIRIDIBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1782,7 +1782,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="XDNAAvailableLabel">
+       <widget class="QLabel" name="VIRIDIAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelXDNA">
+       <widget class="QLabel" name="labelVIRIDI">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="XDNABalanceLabel">
+    <widget class="QLabel" name="VIRIDIBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="XDNAAvailableLabel_2">
+    <widget class="QLabel" name="VIRIDIAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2835,7 +2835,7 @@
       <string>VIRIDI Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="XDNAPendingLabel">
+    <widget class="QLabel" name="VIRIDIPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>

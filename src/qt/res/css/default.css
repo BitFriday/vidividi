@@ -698,7 +698,7 @@
         
 
      
-         QWidget .QPushButton#blabel_XDNA {
+         QWidget .QPushButton#blabel_VIRIDI {
             background-color: transparent;
             border:0;
             border-radius:0px;
@@ -733,7 +733,7 @@
      }
 
 
-     QWidget .QFrame#frame_blue .QLabel#label_XDNA2 { /*VIRIDI */
+     QWidget .QFrame#frame_blue .QLabel#label_VIRIDI2 { /*VIRIDI */
         background-color:transparent;
         color:rgb(255, 255, 255);
         font-size:15px;
@@ -751,7 +751,7 @@
         font-size:30px;
      }
 
-     QWidget .QFrame#frame_blue .QLabel#label_XDNA3 { /*VIRIDI */
+     QWidget .QFrame#frame_blue .QLabel#label_VIRIDI3 { /*VIRIDI */
         background-color:transparent;
         color:rgb(255, 255, 255);
         font-size:15px;
@@ -771,7 +771,7 @@
      }
 
 
-     QWidget .QFrame#frame_blue .QLabel#label_XDNA4 { /*VIRIDI */
+     QWidget .QFrame#frame_blue .QLabel#label_VIRIDI4 { /*VIRIDI */
         background-color:transparent;
         color:rgb(255, 255, 255);
         font-size:15px;

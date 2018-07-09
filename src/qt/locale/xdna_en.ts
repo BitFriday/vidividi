@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VIRIDIs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3630,12 +3630,12 @@ https://www.transifex.com/viridi-project/viridi-project-translations</source>
     </message>
     <message>
         <location line="-165"/>
-        <source>If the custom fee is set to 1000 uXDNAs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uBWKs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uBWKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uVIRIDIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uBWKs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uBWKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uXDNAs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uXDNAs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uXDNAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uVIRIDIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uVIRIDIs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uVIRIDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

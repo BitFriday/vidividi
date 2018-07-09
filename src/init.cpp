@@ -1577,8 +1577,8 @@ bool AppInit2(boost::thread_group& threadGroup)
        is convertable to another.
 
        For example:
-       1XDNA+1000 == (.1XDNA+100)*10
-       10XDNA+10000 == (1XDNA+1000)*10
+       1VIRIDI+1000 == (.1VIRIDI+100)*10
+       10VIRIDI+10000 == (1VIRIDI+1000)*10
     */
     obfuScationDenominations.push_back((10000 * COIN) + 10000000);
     obfuScationDenominations.push_back((1000 * COIN) + 1000000);

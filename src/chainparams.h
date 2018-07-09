@@ -54,7 +54,7 @@ public:
     const std::vector<unsigned char>& AlertKey() const { return vAlertPubKey; }
 
     const std::vector<unsigned char>& virididevKey() const { return vvirididevKey; }
-    const std::vector<unsigned char>& xDNAFundKey() const { return vXDNAFundKey; }
+    const std::vector<unsigned char>& xDNAFundKey() const { return vVIRIDIFundKey; }
     int GetDevFee() const { return nDevFee; }
     int GetFundFee() const { return nFundFee; }
 
@@ -121,7 +121,7 @@ protected:
     //! Raw pub key bytes for the broadcast alert signing key.
     std::vector<unsigned char> vAlertPubKey;
     std::vector<unsigned char> vvirididevKey;
-    std::vector<unsigned char> vXDNAFundKey;
+    std::vector<unsigned char> vVIRIDIFundKey;
     int nDevFee;
     int nFundFee;
     int nDefaultPort;
