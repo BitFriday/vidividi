@@ -7,13 +7,13 @@ User=xdna
 Group=xdna
 
 Type=forking
-PIDFile=/var/lib/viridid/viridid.pid
+PIDFile=/var/lib/xdnad/xdnad.pid
 
-ExecStart=/usr/bin/viridid -daemon -pid=/var/lib/viridid/viridid.pid \
-          -conf=/etc/xdna/xdna.conf -datadir=/var/lib/viridid
+ExecStart=/usr/bin/xdnad -daemon -pid=/var/lib/xdnad/xdnad.pid \
+          -conf=/etc/xdna/xdna.conf -datadir=/var/lib/xdnad
 
-ExecStop=-/usr/bin/viridi-cli -conf=/etc/xdna/xdna.conf \
-         -datadir=/var/lib/viridid stop
+ExecStop=-/usr/bin/xdna-cli -conf=/etc/xdna/xdna.conf \
+         -datadir=/var/lib/xdnad stop
 
 Restart=always
 PrivateTmp=true

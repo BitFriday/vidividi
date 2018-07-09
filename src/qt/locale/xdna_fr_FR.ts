@@ -152,8 +152,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VIRIDIs from being stolen by malware infecting your computer.</source>
-        <translation>VIRIDI va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos VIRIDIs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
+        <translation>VIRIDI va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos XDNAs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

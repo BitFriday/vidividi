@@ -176,8 +176,8 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VIRIDIs from being stolen by malware infecting your computer.</source>
-        <translation>VIRIDI se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše VIRIDIy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
+        <translation>VIRIDI se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše XDNAy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VIRIDI&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE VIRIDIy&lt;/b&gt;!</translation>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE XDNAy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>

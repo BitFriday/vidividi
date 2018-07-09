@@ -172,8 +172,8 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VIRIDIs from being stolen by malware infecting your computer.</source>
-        <translation>VIRIDI vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas VIRIDIs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
+        <translation>VIRIDI vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas XDNAs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -1611,9 +1611,9 @@ Favor verificar o endereço e tente novamente.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/viridi-project/viridi-project-translations</source>
+https://www.transifex.com/xdna-project/xdna-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/viridi-project/viridi-project-translations</translation>
+https://www.transifex.com/xdna-project/xdna-project-translations</translation>
     </message>
     <message>
         <source>Connect to the VIRIDI network through a SOCKS5 proxy.</source>
@@ -2514,8 +2514,8 @@ https://www.transifex.com/viridi-project/viridi-project-translations</translatio
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uVIRIDIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVIRIDIs in fee,&lt;br /&gt;while "at least" pays 1000 uVIRIDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uVIRIDIs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uVIRIDIs em taxa,&lt;br /&gt; pagará pelo menos 1000 uVIRIDIs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uXDNAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXDNAs in fee,&lt;br /&gt;while "at least" pays 1000 uXDNAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uXDNAs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uXDNAs em taxa,&lt;br /&gt; pagará pelo menos 1000 uXDNAs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for VIRIDI transactions than the network can process.</source>

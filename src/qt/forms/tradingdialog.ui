@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="VIRIDISupply">
+    <widget class="QLabel" name="XDNASupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="virididemand">
+    <widget class="QLabel" name="xdnademand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyVIRIDI">
+    <widget class="QPushButton" name="BuyXDNA">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -445,7 +445,7 @@
       <string>Buy VIRIDI</string>
      </property>
      <property name="icon">
-      <iconset resource="../viridi.qrc">
+      <iconset resource="../xdna.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1707,7 +1707,7 @@
       <string>VIRIDI</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputVIRIDI">
+    <widget class="QLineEdit" name="UnitsInputXDNA">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellVIRIDIBTN">
+    <widget class="QPushButton" name="SellXDNABTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1782,7 +1782,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="VIRIDIAvailableLabel">
+       <widget class="QLabel" name="XDNAAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelVIRIDI">
+       <widget class="QLabel" name="labelXDNA">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="VIRIDIBalanceLabel">
+    <widget class="QLabel" name="XDNABalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="VIRIDIAvailableLabel_2">
+    <widget class="QLabel" name="XDNAAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2835,7 +2835,7 @@
       <string>VIRIDI Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="VIRIDIPendingLabel">
+    <widget class="QLabel" name="XDNAPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2944,7 +2944,7 @@
       <string>Generate VIRIDI Deposit Address</string>
      </property>
      <property name="icon">
-      <iconset resource="../viridi.qrc">
+      <iconset resource="../xdna.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3206,7 +3206,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../viridi.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../xdna.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3253,7 +3253,7 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon">
-      <iconset resource="../viridi.qrc">
+      <iconset resource="../xdna.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3408,7 +3408,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../viridi.qrc"/>
+  <include location="../xdna.qrc"/>
  </resources>
  <connections/>
 </ui>

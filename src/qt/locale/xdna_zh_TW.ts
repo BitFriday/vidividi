@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出VIRIDI幣的位址</translation>
+        <translation>選擇要匯出XDNA幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收VIRIDI幣的位址</translation>
+        <translation>選擇要接收XDNA幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -164,7 +164,7 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VIRIDIs from being stolen by malware infecting your computer.</source>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
         <translation>VIRIDI 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 VIRIDI 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
@@ -651,7 +651,7 @@
     </message>
     <message>
         <source>Open a VIRIDI: URI or payment request</source>
-        <translation>打開VIRIDI: 位址或付款請求 </translation>
+        <translation>打開XDNA: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>

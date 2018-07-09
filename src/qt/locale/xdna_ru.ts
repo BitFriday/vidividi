@@ -172,7 +172,7 @@
         <translation>Подтвердить шифрование кошелька</translation>
     </message>
     <message>
-        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VIRIDIs from being stolen by malware infecting your computer.</source>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
         <translation>VIRIDI сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши VIRIDI от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
@@ -1711,9 +1711,9 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/viridi-project/viridi-project-translations</source>
+https://www.transifex.com/xdna-project/xdna-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/viridi-project/viridi-project-translations</translation>
+https://www.transifex.com/xdna-project/xdna-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>

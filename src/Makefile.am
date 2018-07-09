@@ -70,11 +70,11 @@ noinst_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += viridid
+  bin_PROGRAMS += xdnad
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += viridi-cli viridi-tx
+  bin_PROGRAMS += xdna-cli xdna-tx
 endif
 
 .PHONY: FORCE
@@ -174,7 +174,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between viridid and viridi-qt
+# server: shared between xdnad and xdna-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -215,7 +215,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between viridid and viridi-qt, but only linked
+# wallet: shared between xdnad and xdna-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -275,7 +275,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_types.h
 
 
-# common: shared between viridid, and viridi-qt and non-server tools
+# common: shared between xdnad, and xdna-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -333,7 +333,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between viridi-cli and viridi-qt
+# cli: shared between xdna-cli and xdna-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -343,16 +343,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# viridid binary #
-viridid_SOURCES = viridid.cpp
-viridid_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-viridid_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-viridid_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# xdnad binary #
+xdnad_SOURCES = xdnad.cpp
+xdnad_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+xdnad_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+xdnad_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-viridid_SOURCES += viridid-res.rc
+xdnad_SOURCES += xdnad-res.rc
 endif
-viridid_LDADD = \
+xdnad_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -364,41 +364,41 @@ viridid_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-viridid_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+xdnad_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# viridi-cli binary #
-viridi_cli_SOURCES = viridi-cli.cpp
-viridi_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-viridi_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-viridi_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# xdna-cli binary #
+xdna_cli_SOURCES = xdna-cli.cpp
+xdna_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+xdna_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+xdna_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-viridi_cli_SOURCES += viridi-cli-res.rc
+xdna_cli_SOURCES += xdna-cli-res.rc
 endif
 
-viridi_cli_LDADD = \
+xdna_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-viridi_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+xdna_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# viridi-tx binary #
-viridi_tx_SOURCES = viridi-tx.cpp
-viridi_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-viridi_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-viridi_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# xdna-tx binary #
+xdna_tx_SOURCES = xdna-tx.cpp
+xdna_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+xdna_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+xdna_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
-viridi_tx_LDADD = \
+xdna_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-viridi_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+xdna_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 if BUILD_BITCOIN_LIBS

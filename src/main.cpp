@@ -2079,7 +2079,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("viridi-scriptch");
+    RenameThread("xdna-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -3141,7 +3141,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
 
             if(nHeight > 1) { // exclude premine
                 // The first transaction must have Fund and Dev scripts.
-                CScript scriptDevPubKeyIn  = CScript() << Params().virididevKey() << OP_CHECKSIG;
+                CScript scriptDevPubKeyIn  = CScript() << Params().xDNADevKey() << OP_CHECKSIG;
                 CScript scriptFundPubKeyIn = CScript() << Params().xDNAFundKey() << OP_CHECKSIG;
                 CTxDestination DevAddress;
                 CTxDestination FundAddress;

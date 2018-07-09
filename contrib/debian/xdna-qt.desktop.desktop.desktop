@@ -2,10 +2,10 @@
 Encoding=UTF-8
 Name=VIRIDI
 Comment=VIRIDI P2P Cryptocurrency
-Exec=viridi-qt %u
+Exec=xdna-qt %u
 Terminal=false
 Type=Application
 Icon=xdna128
 MimeType=x-scheme-handler/xdna;
 Categories=Office;Finance;
-Name[ru]=viridi-qt.desktop.desktop
+Name[ru]=xdna-qt.desktop.desktop

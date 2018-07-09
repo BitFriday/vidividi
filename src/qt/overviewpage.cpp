@@ -211,7 +211,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     // for symmetry reasons also show immature label when the watch-only one is shown
     ui->labelImmature->setVisible(showImmature || showWatchOnlyImmature);
     ui->labelImmatureText->setVisible(showImmature || showWatchOnlyImmature);
-    ui->label_VIRIDI4->setVisible(showImmature || showWatchOnlyImmature);
+    ui->label_XDNA4->setVisible(showImmature || showWatchOnlyImmature);
 
    // ui->labelWatchImmature->setVisible(showWatchOnlyImmature); // show watch-only immature balance
 
@@ -278,7 +278,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         connect(ui->obfuscationReset, SIGNAL(clicked()), this, SLOT(obfuscationReset()));
         connect(ui->toggleObfuscation, SIGNAL(clicked()), this, SLOT(toggleObfuscation()));
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
-        connect(ui->blabel_VIRIDI, SIGNAL(clicked()), this, SLOT(openMyAddresses()));
+        connect(ui->blabel_XDNA, SIGNAL(clicked()), this, SLOT(openMyAddresses()));
        
     }
 
@@ -353,8 +353,8 @@ void OverviewPage::updatBlockChainInfo()
 int CurrentBlock = (int)chainActive.Height();
 int64_t netHashRate = chainActive.GetNetworkHashPS(24, CurrentBlock-1);
 int64_t BlockReward = Params().SubsidyValue(netHashRate);
-double BlockRewardVIRIDI =  static_cast<double>(BlockReward/COIN); 
-//int64_t VIRIDISupply = chainActive.Tip()->nMoneySupply / COIN; 
+double BlockRewardXDNA =  static_cast<double>(BlockReward/COIN); 
+//int64_t XDNASupply = chainActive.Tip()->nMoneySupply / COIN; 
 
 ui->label_CurrentBlock_value->setText(QString::number(CurrentBlock));
 
@@ -393,8 +393,8 @@ else
 }
 
 
-ui->label_CurrentBlockReward_value->setText(QString::number(BlockRewardVIRIDI));
-//ui->label_VIRIDISupply_value->setText(QString::number(VIRIDISupply));
+ui->label_CurrentBlockReward_value->setText(QString::number(BlockRewardXDNA));
+//ui->label_XDNASupply_value->setText(QString::number(XDNASupply));
 
 
   }

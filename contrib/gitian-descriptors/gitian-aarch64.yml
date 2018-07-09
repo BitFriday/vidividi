@@ -1,5 +1,5 @@
 ---
-name: "viridi-aarch64-3.1"
+name: "xdna-aarch64-3.1"
 enable_cache: true
 suites:
 - "xenial"
@@ -25,7 +25,7 @@ packages:
 - "python"
 reference_datetime: "2015-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/viridi-project/xdna.git"
+- "url": "https://github.com/xdna-project/xdna.git"
   "dir": "xdna"
 files: []
 script: |
@@ -132,13 +132,13 @@ script: |
   ./autogen.sh
   CONFIG_SITE=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`/share/config.site ./configure --prefix=/
   make dist
-  SOURCEDIST=`echo viridi-*.tar.gz`
+  SOURCEDIST=`echo xdna-*.tar.gz`
   DISTNAME=`echo ${SOURCEDIST} | sed 's/.tar.*//'`
   # Correct tar file order
   mkdir -p temp
   pushd temp
   tar xf ../$SOURCEDIST
-  find viridi-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
+  find xdna-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
   popd
 
   ORIGPATH="$PATH"

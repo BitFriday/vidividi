@@ -5,21 +5,21 @@
 if [ -d "/var/lib/xdna/.xdna" ]; then
 	BITCOIND_DEFAULT_DATADIR="/var/lib/xdna/.xdna"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/viridid"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/xdnad"
 fi
 
 BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/xdna/xdna.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/viridid}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/viridid.pid}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/xdnad}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/xdnad.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
 BITCOIND_USER=${BITCOIND_USER:-xdna}
 BITCOIND_GROUP=${BITCOIND_GROUP:-xdna}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/viridid}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/xdnad}
 
 name="VIRIDI Daemon"
 description="VIRIDI crypto-currency p2p network daemon"
 
-command="/usr/bin/viridid"
+command="/usr/bin/xdnad"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run viridid."
+		eerror "ERROR: You must set a secure rpcpassword to run xdnad."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "

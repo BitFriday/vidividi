@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the xdna, gitian-builder, gitian.sigs, and viridi-detached-sigs.
+Run this script from the directory containing the xdna, gitian-builder, gitian.sigs, and xdna-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -238,7 +238,7 @@ if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
     git clone https://github.com/viridi-core/gitian.sigs.git
-    git clone https://github.com/viridi-core/viridi-detached-sigs.git
+    git clone https://github.com/viridi-core/xdna-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -261,7 +261,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./viridi-binaries/${VERSION}
+	mkdir -p ./xdna-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -281,7 +281,7 @@ then
 	    echo ""
 	    ./bin/gbuild -j ${proc} -m ${mem} --commit xdna=${COMMIT} --url xdna=${url} ../xdna/contrib/gitian-descriptors/gitian-linux.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/viridi-*.tar.gz build/out/src/viridi-*.tar.gz ../viridi-binaries/${VERSION}
+	    mv build/out/xdna-*.tar.gz build/out/src/xdna-*.tar.gz ../xdna-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -291,8 +291,8 @@ then
 	    echo ""
 	    ./bin/gbuild -j ${proc} -m ${mem} --commit xdna=${COMMIT} --url xdna=${url} ../xdna/contrib/gitian-descriptors/gitian-win.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/viridi-*-win-unsigned.tar.gz inputs/viridi-win-unsigned.tar.gz
-	    mv build/out/viridi-*.zip build/out/viridi-*.exe ../viridi-binaries/${VERSION}
+	    mv build/out/xdna-*-win-unsigned.tar.gz inputs/xdna-win-unsigned.tar.gz
+	    mv build/out/xdna-*.zip build/out/xdna-*.exe ../xdna-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -302,8 +302,8 @@ then
 	    echo ""
 	    ./bin/gbuild -j ${proc} -m ${mem} --commit xdna=${COMMIT} --url xdna=${url} ../xdna/contrib/gitian-descriptors/gitian-osx.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/viridi-*-osx-unsigned.tar.gz inputs/viridi-osx-unsigned.tar.gz
-	    mv build/out/viridi-*.tar.gz build/out/viridi-*.dmg ../viridi-binaries/${VERSION}
+	    mv build/out/xdna-*-osx-unsigned.tar.gz inputs/xdna-osx-unsigned.tar.gz
+	    mv build/out/xdna-*.tar.gz build/out/xdna-*.dmg ../xdna-binaries/${VERSION}
 	fi
 	# AArch64
 	if [[ $aarch64 = true ]]
@@ -313,7 +313,7 @@ then
 	    echo ""
 	    ./bin/gbuild -j ${proc} -m ${mem} --commit xdna=${COMMIT} --url xdna=${url} ../xdna/contrib/gitian-descriptors/gitian-aarch64.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-aarch64.yml
-	    mv build/out/viridi-*.tar.gz build/out/src/viridi-*.tar.gz ../viridi-binaries/${VERSION}
+	    mv build/out/xdna-*.tar.gz build/out/src/xdna-*.tar.gz ../xdna-binaries/${VERSION}
 	popd
 
         if [[ $commitFiles = true ]]
@@ -382,8 +382,8 @@ then
 	    echo ""
 	    ./bin/gbuild -i --commit signature=${COMMIT} ../xdna/contrib/gitian-descriptors/gitian-win-signer.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/viridi-*win64-setup.exe ../viridi-binaries/${VERSION}
-	    mv build/out/viridi-*win32-setup.exe ../viridi-binaries/${VERSION}
+	    mv build/out/xdna-*win64-setup.exe ../xdna-binaries/${VERSION}
+	    mv build/out/xdna-*win32-setup.exe ../xdna-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -393,7 +393,7 @@ then
 	    echo ""
 	    ./bin/gbuild -i --commit signature=${COMMIT} ../xdna/contrib/gitian-descriptors/gitian-osx-signer.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/viridi-osx-signed.dmg ../viridi-binaries/${VERSION}/viridi-${VERSION}-osx.dmg
+	    mv build/out/xdna-osx-signed.dmg ../xdna-binaries/${VERSION}/xdna-${VERSION}-osx.dmg
 	fi
 	popd
 

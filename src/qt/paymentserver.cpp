@@ -58,9 +58,9 @@ const QString BITCOIN_IPC_PREFIX("xdna:");
 const char* BIP70_MESSAGE_PAYMENTACK = "PaymentACK";
 const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
 // BIP71 payment protocol media types
-const char* BIP71_MIMETYPE_PAYMENT = "application/viridi-payment";
-const char* BIP71_MIMETYPE_PAYMENTACK = "application/viridi-paymentack";
-const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/viridi-paymentrequest";
+const char* BIP71_MIMETYPE_PAYMENT = "application/xdna-payment";
+const char* BIP71_MIMETYPE_PAYMENTACK = "application/xdna-paymentack";
+const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/xdna-paymentrequest";
 // BIP70 max payment request size in bytes (DoS protection)
 const qint64 BIP70_MAX_PAYMENTREQUEST_SIZE = 50000;
 
@@ -87,7 +87,7 @@ namespace // Anon namespace
 //
 static QString ipcServerName()
 {
-    QString name("VIRIDIQt");
+    QString name("XDNAQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path

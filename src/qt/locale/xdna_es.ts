@@ -176,8 +176,8 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VIRIDIs from being stolen by malware infecting your computer.</source>
-        <translation>VIRIDI se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus VIRIDIs no sean robados mediante malware de su ordenador.</translation>
+        <source>VIRIDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
+        <translation>VIRIDI se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus XDNAs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -1719,9 +1719,9 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/viridi-project/viridi-project-translations</source>
+https://www.transifex.com/xdna-project/xdna-project-translations</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/viridi-project/viridi-project-translations</translation>
+https://www.transifex.com/xdna-project/xdna-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2841,12 +2841,12 @@ https://www.transifex.com/viridi-project/viridi-project-translations</translatio
         <translation>Tiempo de confirmación:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uVIRIDIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVIRIDIs in fee,&lt;br /&gt;while "at least" pays 1000 uVIRIDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uVIRIDIs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uVIRIDIs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uVIRIDIs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uXDNAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXDNAs in fee,&lt;br /&gt;while "at least" pays 1000 uXDNAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uXDNAs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uXDNAs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uXDNAs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uVIRIDIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVIRIDIs in fee,&lt;br /&gt;while "total at least" pays 1000 uVIRIDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uVIRIDIs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uVIRIDIs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uVIRIDIs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uXDNAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXDNAs in fee,&lt;br /&gt;while "total at least" pays 1000 uXDNAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uXDNAs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uXDNAs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uXDNAs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for VIRIDI transactions than the network can process.</source>
@@ -4083,7 +4083,7 @@ https://www.transifex.com/viridi-project/viridi-project-translations</translatio
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use viridid, or the -server option to viridi-qt, you must set an rpcpassword in the configuration file:
+        <source>To use xdnad, or the -server option to xdna-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=xdnarpc
@@ -4094,7 +4094,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "VIRIDI Alert" admin@foo.com
 </source>
-        <translation>Para usar viridid, o la opción -server de viridi-qt, debes definir un rpcpassword en el archivo de configuración:
+        <translation>Para usar xdnad, o la opción -server de xdna-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
 Es recomendado que uses la siguiente contraseña aleatoria:
 rpcuser=xdna

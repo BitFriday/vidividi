@@ -132,8 +132,8 @@ public:
         pchMessageStart[2] = 0xfe;
         pchMessageStart[3] = 0xe8;
         vAlertPubKey = ParseHex("04A2B684CBABE97BA08A35EA388B06A6B03E13DFBA974466880AF4CAE1C5B606A751BF7C5CBDE5AB90722CF5B1EC1AADA6D24D607870B6D6B5D684082655404C8D");
-        vvirididevKey = ParseHex("03a5b37edc1bb8df5da4a167a06c2269ec47f6add43bce4c9a4e22c63f91567dec"); // DevPubKey for fees
-        vVIRIDIFundKey = ParseHex("03a5b37edc1bb8df5da4a167a06c2269ec47f6add43bce4c9a4e22c63f91567dec"); // FundPubKey for fees
+        vXDNADevKey = ParseHex("03a5b37edc1bb8df5da4a167a06c2269ec47f6add43bce4c9a4e22c63f91567dec"); // DevPubKey for fees
+        vXDNAFundKey = ParseHex("03a5b37edc1bb8df5da4a167a06c2269ec47f6add43bce4c9a4e22c63f91567dec"); // FundPubKey for fees
         nDevFee = 1; // DevFee %
         nFundFee = 2; //FundFee %
         nDefaultPort = 1945;

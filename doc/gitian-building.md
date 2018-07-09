@@ -281,7 +281,7 @@ Clone the git repositories for xdna and gitian and then checkout the xdna versio
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/viridi-crypto/xdna.git
+git clone https://github.com/xdna-crypto/xdna.git
 cd xdna
 git checkout v${VERSION}
 cd ..
@@ -350,7 +350,7 @@ Output from `gbuild` will look something like
     remote: Total 35606 (delta 0), reused 0 (delta 0)
     Receiving objects: 100% (35606/35606), 26.52 MiB | 4.28 MiB/s, done.
     Resolving deltas: 100% (25724/25724), done.
-    From https://github.com/viridi-crypto/xdna
+    From https://github.com/xdna-crypto/xdna
     ... (new tags, new branch etc)
     --- Building for precise x86_64 ---
     Stopping target if it is up
@@ -396,9 +396,9 @@ When you execute `gsign` you will get an error from GPG, which can be ignored. C
 in `gitian.sigs` to your signing machine and do
 
 ```bash
-    gpg --detach-sign ${VERSION}-linux/${SIGNER}/viridi-build.assert
-    gpg --detach-sign ${VERSION}-win/${SIGNER}/viridi-build.assert
-    gpg --detach-sign ${VERSION}-osx/${SIGNER}/viridi-build.assert
+    gpg --detach-sign ${VERSION}-linux/${SIGNER}/xdna-build.assert
+    gpg --detach-sign ${VERSION}-win/${SIGNER}/xdna-build.assert
+    gpg --detach-sign ${VERSION}-osx/${SIGNER}/xdna-build.assert
 ```
 
 This will create the `.sig` files that can be committed together with the `.assert` files to assert your
@@ -408,6 +408,6 @@ Uploading signatures (not yet implemented)
 ---------------------
 
 In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[xdna/gitian.sigs](https://github.com/viridi-crypto/gitian.sigs/) repository, or if that's not possible to create a pull
+[xdna/gitian.sigs](https://github.com/xdna-crypto/gitian.sigs/) repository, or if that's not possible to create a pull
 request.
 There will be an official announcement when this repository is online.

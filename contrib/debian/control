@@ -24,7 +24,7 @@ Homepage: http://www.xdna.io
 Vcs-Git: git://github.com/VIRIDI-Core/VIRIDI.git
 Vcs-Browser: http://github.com/VIRIDI-Core/VIRIDI
 
-Package: viridid
+Package: xdnad
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -37,10 +37,10 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides the daemon, viridid, and the CLI tool
- viridi-cli to interact with the daemon.
+ This package provides the daemon, xdnad, and the CLI tool
+ xdna-cli to interact with the daemon.
 
-Package: viridi-qt
+Package: xdna-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI

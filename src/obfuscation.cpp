@@ -1916,10 +1916,10 @@ void CObfuscationPool::GetDenominationsToString(int nDenom, std::string& strDeno
 {
     // Function returns as follows:
     //
-    // bit 0 - 100VIRIDI+1 ( bit on if present )
-    // bit 1 - 10VIRIDI+1
-    // bit 2 - 1VIRIDI+1
-    // bit 3 - .1VIRIDI+1
+    // bit 0 - 100XDNA+1 ( bit on if present )
+    // bit 1 - 10XDNA+1
+    // bit 2 - 1XDNA+1
+    // bit 3 - .1XDNA+1
     // bit 3 - non-denom
 
 
@@ -1989,10 +1989,10 @@ int CObfuscationPool::GetDenominations(const std::vector<CTxOut>& vout, bool fSi
 
     // Function returns as follows:
     //
-    // bit 0 - 100VIRIDI+1 ( bit on if present )
-    // bit 1 - 10VIRIDI+1
-    // bit 2 - 1VIRIDI+1
-    // bit 3 - .1VIRIDI+1
+    // bit 0 - 100XDNA+1 ( bit on if present )
+    // bit 1 - 10XDNA+1
+    // bit 2 - 1XDNA+1
+    // bit 3 - .1XDNA+1
 
     return denom;
 }
@@ -2289,7 +2289,7 @@ void ThreadCheckObfuScationPool()
     if (fLiteMode) return; //disable all Obfuscation/Masternode related functionality
 
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("viridi-obfuscation");
+    RenameThread("xdna-obfuscation");
 
     unsigned int c = 0;
 

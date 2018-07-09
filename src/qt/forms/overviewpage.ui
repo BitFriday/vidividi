@@ -239,7 +239,7 @@
                 </spacer>
                </item>
                <item>
-                <widget class="QPushButton" name="blabel_VIRIDI">
+                <widget class="QPushButton" name="blabel_XDNA">
                  <property name="font">
                   <font>
                    <pointsize>20</pointsize>
@@ -308,7 +308,7 @@
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="label_VIRIDI2">
+                <widget class="QLabel" name="label_XDNA2">
                  <property name="text">
                   <string>VIC</string>
                  </property>
@@ -352,7 +352,7 @@
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="label_VIRIDI3">
+                <widget class="QLabel" name="label_XDNA3">
                  <property name="text">
                   <string>VIC</string>
                  </property>
@@ -396,7 +396,7 @@
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="label_VIRIDI4">
+                <widget class="QLabel" name="label_XDNA4">
                  <property name="text">
                   <string>VIC</string>
                  </property>
