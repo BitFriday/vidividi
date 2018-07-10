@@ -140,26 +140,12 @@ public:
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         bnStartWork = ~uint256(0) >> 24;
 
-        /*
+        
         subsidySwitchPoints = {
-            {0         ,   4 * COIN},
-            {2   * 1e12,   5 * COIN},
-            {3   * 1e12,   7 * COIN},
-            {5   * 1e12,   9 * COIN},
-            {8   * 1e12,  11 * COIN},
-            {13  * 1e12,  15 * COIN},
-            {21  * 1e12,  20 * COIN},
-            {34  * 1e12,  27 * COIN},
-            {55  * 1e12,  39 * COIN},
-            {89  * 1e12,  57 * COIN},
-            {144 * 1e12,  85 * COIN},
-            {233 * 1e12, 131 * COIN},
-            {377 * 1e12, 204 * COIN},
-            {610 * 1e12, 321 * COIN},
-            {987 * 1e12, 511 * COIN},
+            {0, 4 * COIN},
         };
         assert(subsidySwitchPoints.size());
-        */
+
 
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
