@@ -140,6 +140,7 @@ public:
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         bnStartWork = ~uint256(0) >> 24;
 
+        /*
         subsidySwitchPoints = {
             {0         ,   4 * COIN},
             {2   * 1e12,   5 * COIN},
@@ -158,6 +159,7 @@ public:
             {987 * 1e12, 511 * COIN},
         };
         assert(subsidySwitchPoints.size());
+        */
 
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
@@ -165,7 +167,7 @@ public:
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
         nTargetSpacing = 1 * 60;  // VIRIDI: 1 minute
-        nAntiInstamineTime = 10; // 720 blocks with 1 reward for instamine prevention
+        nAntiInstamineTime = 240; // 720 blocks with 1 reward for instamine prevention
         nMaturity = 60;
         nMasternodeCountDrift = 3;
         nMaxMoneyOut = 200000000 * COIN;
@@ -173,7 +175,7 @@ public:
         nStartMasternodePaymentsBlock = 7001;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 120;
+        nLastPOWBlock = 240;
         nModifierUpdateBlock = std::numeric_limits<decltype(nModifierUpdateBlock)>::max();
 
         /**
